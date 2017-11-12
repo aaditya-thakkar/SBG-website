@@ -1,0 +1,80 @@
+export default [
+  {
+    title: 'Visit to an Old Age Home',
+    date: new Date(2017, 9, 31),
+    link: 'https://docs.google.com/document/d/1ZaBfd6CQ5eE3x-gEXcNEf3J8XKGtDOt9HJPHoIzeVfU/edit',
+    active: true,
+  },
+  {
+    title: 'Manual Robotics Workshop',
+    date: new Date(2017, 9, 31),
+    link: '',
+    active: true,
+  },
+  {
+    title: 'Mosaic of Albert Einstein by The Cubing Club during I.Fest 2017',
+    date: new Date(2017, 9, 26),
+    link: 'https://drive.google.com/open?id=0BzhQRE0vs1ndYkl4dkQ5cldjb1U',
+    active: true,
+  },
+  {
+    title: 'Blood Donation Camp',
+    date: new Date(2017, 9, 3),
+    link: 'https://docs.google.com/document/d/1ZfPWLrXBrfrZFTu61AgJQAdNEGNDSOAQ0q7MYMtdnY8/edit',
+    active: true,
+  },
+  {
+    title: 'HoR Cleanliness Drive',
+    date: new Date(2017, 8, 27),
+    link: 'https://docs.google.com/document/d/1E8QEIatubCZsWoY8Ylg1TE3SvuzaG0Ckn53YE7e9BQc/edit',
+    active: true,
+  },
+  {
+    title: 'Intra DA-IICT MUN',
+    date: new Date(2017, 8, 24),
+    link: 'https://drive.google.com/file/d/0B7018vFkJgoXcTRobldXeEFrS0U/view?usp=sharing',
+    active: true,
+  },
+  {
+    title: 'Educational visit to ISRO Labs, Ahmedabad',
+    date: new Date(2017, 8, 20),
+    link: 'https://docs.google.com/document/d/1AsJUMJzjQkDUtkH6oZfjCL63UCY0ngvNBYwp7G5MkPw/edit',
+    active: true,
+  },
+  {
+    title: 'Abhijit Ghodgaonkar got second rank on "Multiple Blind Folded" category in the Cubing Competition "SCMU 2017" (WCA) held in Mumbai.',
+    date: new Date(2017, 8, 6),
+    link: ' https://www.youtube.com/watch?v=AHtNa2H2sWM',
+    active: true,
+  },
+  {
+    title: 'Mosaic of Dr. Sarvepalli Radhakrishnan by The Cubing Club during Teacher\'s Day 2017',
+    date: new Date(2017, 8, 5),
+    link: 'https://www.youtube.com/watch?v=YBe4Sh9g3jI',
+    active: true,
+  },
+  {
+    title: 'Three members of MSTC selected as Microsoft Student Partner (2017-18)',
+    date: new Date(2017, 7, 18),
+    link: '',
+    active: false,
+  },
+  {
+    title: 'Team FruitSalad in ACM-ICPC World Finals',
+    date: new Date(2017, 4, 27),
+    link: '',
+    active: false,
+  },
+  {
+    title: 'Yash Kumar (B.Tech 3rd Year) and Karan Thakkar (B.Tech 3rd Year) secured runners up position at TCS Codevita, 2016, held at TCS Siruseri campus, Chennai',
+    date: new Date(2017, 3, 7),
+    link: '',
+    active: false,
+  },
+  {
+    title: 'Visit to an Old Age Home',
+    date: new Date(2017, 9, 31),
+    link: '',
+    active: false,
+  },
+];
