@@ -1,5 +1,35 @@
 export default [
   {
+    title: 'Dance Nite OAT',
+    start: new Date(2017, 10, 13, 19, 0, 0),
+    end: new Date(2017, 10, 13, 21, 30,0),
+  },
+  {
+    title: 'Cultural Event For NAAC OAT',
+    start: new Date(2017, 10, 14, 17, 0, 0),
+    end: new Date(2017, 10, 14, 20, 0,0),
+  },
+  {
+    title: 'MSTC LAB 004, 005',
+    start: new Date(2017, 10, 14, 21, 0, 0),
+    end: new Date(2017, 10, 14, 23, 55, 0),
+  },
+  {
+    title: 'Debate',
+    start: new Date(2017, 10, 15, 18, 0, 0),
+    end: new Date(2017, 10, 15, 21, 0,0),
+  },
+  {
+    title: 'Headrush CEP 110',
+    start:new Date(2017, 10, 16, 18, 0, 0),
+    end: new Date(2017,10,16, 21, 0,0),
+  },
+  {
+    title: 'Intro to GSOC CEP 110',
+    start: new Date(2017, 10, 16, 21, 0, 0),
+    end: new Date(2017,10,16, 23, 55, 0),
+  },
+  {
     title: 'MSTC Session',
     start: new Date(2017, 10, 9, 21, 0, 0),
     end: new Date(2017, 10, 9, 23, 55, 0),
