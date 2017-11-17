@@ -3,6 +3,7 @@
 
 #### [Website](http://sbg.daiict.ac.in)
 
+The website is created using ReactJS framework.
 
 ## Installation
 #### 1. Clone this project or Download that ZIP file
