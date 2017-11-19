@@ -116,7 +116,7 @@ module.exports =
   
   var _routes2 = _interopRequireDefault(_routes);
   
-  var _assets = __webpack_require__(185);
+  var _assets = __webpack_require__(186);
   
   var _assets2 = _interopRequireDefault(_assets);
   
@@ -881,47 +881,47 @@ module.exports =
   
   var _home2 = _interopRequireDefault(_home);
   
-  var _icons = __webpack_require__(104);
+  var _icons = __webpack_require__(105);
   
   var _icons2 = _interopRequireDefault(_icons);
   
-  var _sbgTeam = __webpack_require__(108);
+  var _sbgTeam = __webpack_require__(109);
   
   var _sbgTeam2 = _interopRequireDefault(_sbgTeam);
   
-  var _constitution = __webpack_require__(114);
+  var _constitution = __webpack_require__(115);
   
   var _constitution2 = _interopRequireDefault(_constitution);
   
-  var _committees = __webpack_require__(118);
+  var _committees = __webpack_require__(119);
   
   var _committees2 = _interopRequireDefault(_committees);
   
-  var _clubs = __webpack_require__(122);
+  var _clubs = __webpack_require__(123);
   
   var _clubs2 = _interopRequireDefault(_clubs);
   
-  var _annualfests = __webpack_require__(126);
+  var _annualfests = __webpack_require__(127);
   
   var _annualfests2 = _interopRequireDefault(_annualfests);
   
-  var _minutes = __webpack_require__(131);
+  var _minutes = __webpack_require__(132);
   
   var _minutes2 = _interopRequireDefault(_minutes);
   
-  var _events = __webpack_require__(133);
+  var _events = __webpack_require__(134);
   
   var _events2 = _interopRequireDefault(_events);
   
-  var _achievements = __webpack_require__(138);
+  var _achievements = __webpack_require__(139);
   
   var _achievements2 = _interopRequireDefault(_achievements);
   
-  var _gallery = __webpack_require__(140);
+  var _gallery = __webpack_require__(141);
   
   var _gallery2 = _interopRequireDefault(_gallery);
   
-  var _error = __webpack_require__(184);
+  var _error = __webpack_require__(185);
   
   var _error2 = _interopRequireDefault(_error);
   
@@ -1824,13 +1824,17 @@ module.exports =
   
   var _recentUpdates2 = _interopRequireDefault(_recentUpdates);
   
+  var _tile = __webpack_require__(104);
+  
+  var _tile2 = _interopRequireDefault(_tile);
+  
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'SBG | DA-IICT';
   
-  var donutUGData = [{ name: 'Academic Committee', value: 8 }, { name: 'Cultural Committee', value: 11 }, { name: 'Annual Festival Committee', value: 13 }, { name: 'Student Placement Cell', value: 20 }, { name: 'Cafeteia Management Committee', value: 4 }, { name: 'ICT Committee', value: 6 }, { name: 'Sports Committee', value: 8 }, { name: 'Hostel Management Committee', value: 29 }];
+  var donutUGData = [{ name: 'Academic Committee', value: 8 }, { name: 'Cultural Committee', value: 11 }, { name: 'Annual Festival Committee', value: 14 }, { name: 'Student Placement Cell', value: 20 }, { name: 'Cafeteia Management Committee', value: 4 }, { name: 'ICT Committee', value: 6 }, { name: 'Sports Committee', value: 8 }, { name: 'Hostel Management Committee', value: 29 }];
   
-  var donutPGData = [{ name: 'Academic Committee', value: 2 }, { name: 'Cultural Committee', value: 2 }, { name: 'Annual Festival Committee', value: 2 }, { name: 'Student Placement Cell', value: 11 }, { name: 'Cafeteia Management Committee', value: 2 }, { name: 'ICT Committee', value: 2 }, { name: 'Sports Committee', value: 2 }, { name: 'Hostel Management Committee', value: 1 }];
+  var donutPGData = [{ name: 'Academic Committee', value: 2 }, { name: 'Cultural Committee', value: 2 }, { name: 'Annual Festival Committee', value: 1 }, { name: 'Student Placement Cell', value: 11 }, { name: 'Cafeteia Management Committee', value: 2 }, { name: 'ICT Committee', value: 2 }, { name: 'Sports Committee', value: 2 }, { name: 'Hostel Management Committee', value: 1 }];
   
   var culturalEvents = [{
     name: 'Cultural Events every year',
@@ -2422,7 +2426,12 @@ module.exports =
                 },
                 _react2.default.createElement(
                   'div',
-                  null,
+                  { className: 'col-md-3' },
+                  _react2.default.createElement('img', { src: _tile2.default, height: 130, width: 130 })
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'col-md-9' },
                   _react2.default.createElement(
                     'p',
                     null,
@@ -2863,7 +2872,7 @@ module.exports =
                   { id: 'tabs11', defaultActiveKey: 1 },
                   _react2.default.createElement(
                     _reactBootstrap.Tab,
-                    { eventKey: 1, title: 'Under Graduate (98)' },
+                    { eventKey: 1, title: 'Under Graduate (99)' },
                     _react2.default.createElement(
                       'div',
                       null,
@@ -2872,7 +2881,7 @@ module.exports =
                   ),
                   _react2.default.createElement(
                     _reactBootstrap.Tab,
-                    { eventKey: 2, title: 'Post Graduate (24)' },
+                    { eventKey: 2, title: 'Post Graduate (23)' },
                     _react2.default.createElement(_Donut2.default, { data: donutPGData, color: '#2c3e50', innerRadius: '70%', outerRadius: '90%' })
                   )
                 )
@@ -7812,6 +7821,16 @@ module.exports =
     value: true
   });
   exports.default = [{
+    title: 'Waltz - Dance Nite',
+    date: new Date(2017, 10, 13),
+    link: 'https://docs.google.com/document/d/1fK1-gBNm6lHwuL3On9IsZM5pRPO6ZdJm-EXBpnr0VWo/edit?usp=sharing',
+    active: true
+  }, {
+    title: 'Halloween Nite',
+    date: new Date(2017, 10, 4),
+    link: 'https://docs.google.com/document/d/1teJV79wwB0Fw7G0E-mwnihk7cTQxtwAGAoQZ0pmNOw8/edit?usp=sharing',
+    active: true
+  }, {
     title: 'Visit to an Old Age Home',
     date: new Date(2017, 9, 31),
     link: 'https://docs.google.com/document/d/1ZaBfd6CQ5eE3x-gEXcNEf3J8XKGtDOt9HJPHoIzeVfU/edit',
@@ -7819,7 +7838,7 @@ module.exports =
   }, {
     title: 'Manual Robotics Workshop',
     date: new Date(2017, 9, 31),
-    link: '',
+    link: 'https://docs.google.com/document/d/1F9Ir6bwAEgiwWmzB--opDZuLbo5_zIhRaeTh9Oc1HJE/edit?usp=sharing',
     active: true
   }, {
     title: 'Mosaic of Albert Einstein by The Cubing Club during I.Fest 2017',
@@ -7845,7 +7864,7 @@ module.exports =
     title: 'Educational visit to ISRO Labs, Ahmedabad',
     date: new Date(2017, 8, 20),
     link: 'https://docs.google.com/document/d/1AsJUMJzjQkDUtkH6oZfjCL63UCY0ngvNBYwp7G5MkPw/edit',
-    active: true
+    active: false
   }, {
     title: 'Abhijit Ghodgaonkar got second rank on "Multiple Blind Folded" category in the Cubing Competition "SCMU 2017" (WCA) held in Mumbai.',
     date: new Date(2017, 8, 6),
@@ -7855,7 +7874,7 @@ module.exports =
     title: 'Mosaic of Dr. Sarvepalli Radhakrishnan by The Cubing Club during Teacher\'s Day 2017',
     date: new Date(2017, 8, 5),
     link: 'https://www.youtube.com/watch?v=YBe4Sh9g3jI',
-    active: true
+    active: false
   }, {
     title: 'Three members of MSTC selected as Microsoft Student Partner (2017-18)',
     date: new Date(2017, 7, 18),
@@ -7882,30 +7901,7 @@ module.exports =
 /* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _react = __webpack_require__(11);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _Icons = __webpack_require__(105);
-  
-  var _Icons2 = _interopRequireDefault(_Icons);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  exports.default = {
-  
-    path: '/icons',
-  
-    action: function action() {
-      return _react2.default.createElement(_Icons2.default, null);
-    }
-  };
+  module.exports = __webpack_require__.p + "public/tile.png?b6f19ce630069d05c4196ff5ec91893a";
 
 /***/ }),
 /* 105 */
@@ -7921,11 +7917,40 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Panel = __webpack_require__(106);
+  var _Icons = __webpack_require__(106);
+  
+  var _Icons2 = _interopRequireDefault(_Icons);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  exports.default = {
+  
+    path: '/icons',
+  
+    action: function action() {
+      return _react2.default.createElement(_Icons2.default, null);
+    }
+  };
+
+/***/ }),
+/* 106 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(11);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _Panel = __webpack_require__(107);
   
   var _Panel2 = _interopRequireDefault(_Panel);
   
-  var _PageHeader = __webpack_require__(107);
+  var _PageHeader = __webpack_require__(108);
   
   var _PageHeader2 = _interopRequireDefault(_PageHeader);
   
@@ -11007,19 +11032,19 @@ module.exports =
   exports.default = displayIcons;
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
   module.exports = require("react-bootstrap/lib/Panel");
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
   module.exports = require("react-bootstrap/lib/PageHeader");
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11032,7 +11057,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _sbgTeam = __webpack_require__(109);
+  var _sbgTeam = __webpack_require__(110);
   
   var _sbgTeam2 = _interopRequireDefault(_sbgTeam);
   
@@ -11047,7 +11072,7 @@ module.exports =
   };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11085,10 +11110,10 @@ module.exports =
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'SBG Core Team';
-  var smPp = __webpack_require__(110);
-  var jnPp = __webpack_require__(111);
-  var nlPp = __webpack_require__(112);
-  var bmPp = __webpack_require__(113);
+  var smPp = __webpack_require__(111);
+  var jnPp = __webpack_require__(112);
+  var nlPp = __webpack_require__(113);
+  var bmPp = __webpack_require__(114);
   
   var displayBlank = function (_React$Component) {
     (0, _inherits3.default)(displayBlank, _React$Component);
@@ -11247,31 +11272,31 @@ module.exports =
   exports.default = displayBlank;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
   module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/sm_pp.jpeg?8f93c58808057d22f40ca343a93b4db4";
 
 /***/ }),
-/* 111 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/jn.jpeg?8e912dddae1c6866e44e85c2f0def569";
-
-/***/ }),
 /* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/nl_pp.jpg?90550af9c02dbcd735e04a04c4bcb7d3";
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/jn.jpeg?e6f2a8eca47ad85f451493bb4823da0f";
 
 /***/ }),
 /* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/bm_pp.jpg?af05da872ed5949963b7e5a9e5549ead";
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/nl_pp.jpg?90550af9c02dbcd735e04a04c4bcb7d3";
 
 /***/ }),
 /* 114 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/bm_pp.jpg?af05da872ed5949963b7e5a9e5549ead";
+
+/***/ }),
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11284,7 +11309,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _constitution = __webpack_require__(115);
+  var _constitution = __webpack_require__(116);
   
   var _constitution2 = _interopRequireDefault(_constitution);
   
@@ -11299,7 +11324,7 @@ module.exports =
   };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11334,11 +11359,11 @@ module.exports =
   
   var _reactBootstrap = __webpack_require__(39);
   
-  var _reactPdfJs = __webpack_require__(116);
+  var _reactPdfJs = __webpack_require__(117);
   
   var _reactPdfJs2 = _interopRequireDefault(_reactPdfJs);
   
-  var _Constitution = __webpack_require__(117);
+  var _Constitution = __webpack_require__(118);
   
   var _Constitution2 = _interopRequireDefault(_Constitution);
   
@@ -11491,19 +11516,19 @@ module.exports =
   exports.default = Constitution;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
   module.exports = require("react-pdf-js");
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
   module.exports = __webpack_require__.p + "routes/dashboardPages/constitution/Constitution.pdf";
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11516,7 +11541,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _committees = __webpack_require__(119);
+  var _committees = __webpack_require__(120);
   
   var _committees2 = _interopRequireDefault(_committees);
   
@@ -11531,7 +11556,7 @@ module.exports =
   };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11566,11 +11591,11 @@ module.exports =
   
   var _reactBootstrap = __webpack_require__(39);
   
-  var _committeesInfo = __webpack_require__(120);
+  var _committeesInfo = __webpack_require__(121);
   
   var _committeesInfo2 = _interopRequireDefault(_committeesInfo);
   
-  var _CommitteePanel = __webpack_require__(121);
+  var _CommitteePanel = __webpack_require__(122);
   
   var _CommitteePanel2 = _interopRequireDefault(_CommitteePanel);
   
@@ -11615,13 +11640,14 @@ module.exports =
           _react2.default.createElement(
             _reactBootstrap.PanelGroup,
             null,
-            _committeesInfo2.default.map(function (item) {
+            _committeesInfo2.default.map(function (item, i) {
               return _react2.default.createElement(_CommitteePanel2.default, {
                 header: item.header,
                 role: item.role,
                 contact: item.contact,
                 reports: _.get(item, 'reports', null),
-                bsStyle: item.style
+                bsStyle: item.style,
+                eventKey: i
               });
             })
           ),
@@ -11637,7 +11663,7 @@ module.exports =
   exports.default = Committees;
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
   'use strict';
@@ -11668,12 +11694,16 @@ module.exports =
       webmail_id: 'synapse@daiict.ac.in',
       website: 'http://synapse.daiict.ac.in',
       youtube: 'https://www.youtube.com/user/SynapseDAIICT',
-      facebook: 'https://www.instagram.com/synapsedaiict/'
+      instagram: 'https://www.instagram.com/synapsedaiict/'
     },
     reports: [{
       event: 'Synapse 2017 Glimpses',
       link: 'https://drive.google.com/drive/folders/1kkku0RBDUzXTDhbJo2MDg_UVGy4MftNI',
       date: '23th to 26th February, 2017'
+    }, {
+      event: 'Youth Run',
+      link: 'https://docs.google.com/document/d/1g9h2EmOiLFFUjZrW5-HqrOIEk2Kk2bbUZTe6H-2qJME/edit?usp=sharing',
+      date: '22nd January, 2017'
     }]
   }, {
     header: 'Cafeteria Management Committee',
@@ -11699,6 +11729,14 @@ module.exports =
       facebook: 'https://www.facebook.com/DaiictCulturalCommittee/'
     },
     reports: [{
+      event: 'Waltz - Dance Nite',
+      link: 'https://docs.google.com/document/d/1fK1-gBNm6lHwuL3On9IsZM5pRPO6ZdJm-EXBpnr0VWo/edit?usp=sharing',
+      date: '13th November, 2017'
+    }, {
+      event: 'Halloween',
+      link: 'https://docs.google.com/document/d/1teJV79wwB0Fw7G0E-mwnihk7cTQxtwAGAoQZ0pmNOw8/edit?usp=sharing',
+      date: '4th November, 2017'
+    }, {
       event: 'Diwali',
       link: 'https://docs.google.com/document/d/1tEYPfFfcsov8twInesH0kYvWiGZkgseW9XT61OtYgxw/edit?usp=sharing',
       date: '19th October, 2017'
@@ -11773,9 +11811,9 @@ module.exports =
     role: 'The primary role of the ICT Committee is to represent student views and issues related to ICT resources to the concerned authorities (Help Desk, System Admin, Web Committee and ICT Convener) and vice versa. Also, to conduct and/or coordinate sessions over various tools and technologies (eg. Moo- dle) which are used in daily life by the DAIICT community. Further, they play an active role in all the technical assistance required for all the events on campus including sound setup and pack up, maintenance of the technical inventory.',
     contact: {
       c_name: 'Jay Bhuva',
-      dc_name: 'Ishan Changela',
+      dc_name: 'Megh Shah',
       c_num: '+91 9033063062',
-      dc_num: '+91 8460238396',
+      dc_num: '+91 9409265756',
       webmail_id: 'ict_sbg@daiict.ac.in'
     }
   }, {
@@ -11805,7 +11843,7 @@ module.exports =
   }];
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11885,6 +11923,17 @@ module.exports =
           _react2.default.createElement('br', null),
           _react2.default.createElement('br', null)
         );
+        var insta = this.props.contact.instagram && _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: this.props.contact.instagram, target: '_blank', rel: 'noopener noreferrer', className: 'fa fa-camera-retro black-link' },
+            '  ' + this.props.contact.instagram
+          ),
+          _react2.default.createElement('br', null),
+          _react2.default.createElement('br', null)
+        );
         var youtube = this.props.contact.youtube && _react2.default.createElement(
           'div',
           null,
@@ -11909,7 +11958,7 @@ module.exports =
         );
         return _react2.default.createElement(
           _reactBootstrap.Panel,
-          { bsStyle: this.props.bsStyle, collapsible: true, header: this.props.header, eventKey: '1' },
+          { bsStyle: this.props.bsStyle, collapsible: true, header: this.props.header, eventKey: this.props.eventKey },
           _react2.default.createElement(
             _reactBootstrap.Tabs,
             { id: 'tabs1', defaultActiveKey: 1 },
@@ -11931,6 +11980,7 @@ module.exports =
               mail,
               website,
               fb,
+              insta,
               youtube,
               _react2.default.createElement(
                 'p',
@@ -11981,7 +12031,7 @@ module.exports =
   exports.default = CommitteePanel;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -11994,7 +12044,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _clubs = __webpack_require__(123);
+  var _clubs = __webpack_require__(124);
   
   var _clubs2 = _interopRequireDefault(_clubs);
   
@@ -12009,7 +12059,7 @@ module.exports =
   };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -12048,11 +12098,11 @@ module.exports =
   
   var _lodash2 = _interopRequireDefault(_lodash);
   
-  var _clubsInfo = __webpack_require__(124);
+  var _clubsInfo = __webpack_require__(125);
   
   var _clubsInfo2 = _interopRequireDefault(_clubsInfo);
   
-  var _ClubsPanel = __webpack_require__(125);
+  var _ClubsPanel = __webpack_require__(126);
   
   var _ClubsPanel2 = _interopRequireDefault(_ClubsPanel);
   
@@ -12098,13 +12148,14 @@ module.exports =
           _react2.default.createElement(
             _reactBootstrap.PanelGroup,
             null,
-            _clubsInfo2.default.map(function (item) {
+            _clubsInfo2.default.map(function (item, i) {
               return _react2.default.createElement(_ClubsPanel2.default, {
                 header: item.header,
                 role: item.role,
                 contact: item.contact,
                 reports: _lodash2.default.get(item, 'reports', null),
-                bsStyle: item.style
+                bsStyle: item.style,
+                eventKey: i
               });
             })
           ),
@@ -12123,7 +12174,7 @@ module.exports =
   exports.default = Clubs;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
   'use strict';
@@ -12172,13 +12223,14 @@ module.exports =
   }, {
     header: 'Music Club',
     style: 'danger',
-    role: 'Dance Club or DADC as it is popularly known, tries to cater to all kind of dancing instincts of students. We are not professional dancers, just amateurs trying to shake a leg here and there. We have grown over the years with our regional and national level wins. We also organize workshops from time to time to engage students and make them feel the exhilarating effects of dancing. We at Dance Club, choreograph, dance, practice hard and put our best foot forward.',
+    role: 'The Music Club of DA-IICT aims to develop an interest in students towards music and create a healthy music atmosphere amongst the student community. To achieve this purpose, we organise various \'Acoustic Nite Lives\' for the students to perform with their friends or other music enthusiasts. We also form teams to compete in various music competitions in the annual cultural festivals of various prestigious institutes throughout the year. One of the major events which we perform in is the Ragnarock. Apart from this, we strive to organise various informal jamming sessions where a group of students just gets together and sings its heart out. The sole vision of the Music Club is to keep the music taste, talent and atmosphere alive in the music enthusiasts of DA\'s student community and to provide platforms to nurture this talent',
     contact: {
       c_name: 'Rudra Chandak',
       c_num: '+91 9173244011',
       webmail_id: 'music_club@daiict.ac.in',
       facebook: 'https://www.facebook.com/musicclubdaiict/',
-      youtube: 'http://www.youtube.com/channel/UC688bugvcKm8A2tFklL0U-A'
+      youtube: 'http://www.youtube.com/channel/UC688bugvcKm8A2tFklL0U-A',
+      instagram: 'https://www.instagram.com/musicclubdaiict/'
     },
     reports: [{
       event: 'Random Jams',
@@ -12376,6 +12428,10 @@ module.exports =
       webmail_id: 'ehc@daiict.ac.in'
     },
     reports: [{
+      event: 'Manual Robotics Workshop by EHC',
+      link: 'https://docs.google.com/document/d/1F9Ir6bwAEgiwWmzB--opDZuLbo5_zIhRaeTh9Oc1HJE/edit?usp=sharing',
+      date: '1st November, 2017'
+    }, {
       event: 'EHC Activities and Sessions',
       link: 'https://docs.google.com/document/d/1CAGEmaIVExsyZH5mtgia38uMsvXiUsyrnKtxwxjXhP8/edit?usp=sharing',
       date: '4th September - 1st October, 2017'
@@ -12464,7 +12520,7 @@ module.exports =
   }];
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -12555,6 +12611,17 @@ module.exports =
           _react2.default.createElement('br', null),
           _react2.default.createElement('br', null)
         );
+        var insta = this.props.contact.instagram && _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: this.props.contact.instagram, target: '_blank', rel: 'noopener noreferrer', className: 'fa fa-camera-retro black-link' },
+            '  ' + this.props.contact.instagram
+          ),
+          _react2.default.createElement('br', null),
+          _react2.default.createElement('br', null)
+        );
         var youtube = this.props.contact.youtube && _react2.default.createElement(
           'div',
           null,
@@ -12580,7 +12647,7 @@ module.exports =
   
         return _react2.default.createElement(
           _reactBootstrap.Panel,
-          { bsStyle: this.props.bsStyle, collapsible: true, header: this.props.header, eventKey: '1' },
+          { bsStyle: this.props.bsStyle, collapsible: true, header: this.props.header, eventKey: this.props.eventKey },
           _react2.default.createElement(
             _reactBootstrap.Tabs,
             { id: 'tabs1', defaultActiveKey: 1 },
@@ -12603,6 +12670,7 @@ module.exports =
               website,
               google,
               fb,
+              insta,
               youtube,
               _react2.default.createElement(
                 'p',
@@ -12647,7 +12715,7 @@ module.exports =
   exports.default = ClubsPanel;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -12660,7 +12728,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _annualfests = __webpack_require__(127);
+  var _annualfests = __webpack_require__(128);
   
   var _annualfests2 = _interopRequireDefault(_annualfests);
   
@@ -12675,7 +12743,7 @@ module.exports =
   };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -12713,9 +12781,9 @@ module.exports =
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'Annual Fests';
-  var synapse = __webpack_require__(128);
-  var concours = __webpack_require__(129);
-  var ifest = __webpack_require__(130);
+  var synapse = __webpack_require__(129);
+  var concours = __webpack_require__(130);
+  var ifest = __webpack_require__(131);
   
   var displayBlank = function (_React$Component) {
     (0, _inherits3.default)(displayBlank, _React$Component);
@@ -12902,25 +12970,25 @@ module.exports =
   exports.default = displayBlank;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
   module.exports = __webpack_require__.p + "routes/dashboardPages/annualfests/synapse.jpg?4bcbff009f4ec32c2ae1fd3630c47305";
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
   module.exports = __webpack_require__.p + "routes/dashboardPages/annualfests/concours.jpg?00d7b1c0053e5200aa3d5f2fa26fe0bc";
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
   module.exports = __webpack_require__.p + "routes/dashboardPages/annualfests/ifest.jpg?a245d69e69c0dbee044fc38f97d4875e";
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -12933,7 +13001,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _minutes = __webpack_require__(132);
+  var _minutes = __webpack_require__(133);
   
   var _minutes2 = _interopRequireDefault(_minutes);
   
@@ -12948,7 +13016,7 @@ module.exports =
   };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -13179,7 +13247,7 @@ module.exports =
   exports.default = Minutes;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -13192,7 +13260,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _events = __webpack_require__(134);
+  var _events = __webpack_require__(135);
   
   var _events2 = _interopRequireDefault(_events);
   
@@ -13207,7 +13275,7 @@ module.exports =
   };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -13246,15 +13314,15 @@ module.exports =
   
   var _reactBootstrap = __webpack_require__(39);
   
-  var _reactBigCalendar = __webpack_require__(135);
+  var _reactBigCalendar = __webpack_require__(136);
   
   var _reactBigCalendar2 = _interopRequireDefault(_reactBigCalendar);
   
-  var _moment = __webpack_require__(136);
+  var _moment = __webpack_require__(137);
   
   var _moment2 = _interopRequireDefault(_moment);
   
-  var _eventsSchedule = __webpack_require__(137);
+  var _eventsSchedule = __webpack_require__(138);
   
   var _eventsSchedule2 = _interopRequireDefault(_eventsSchedule);
   
@@ -13323,19 +13391,19 @@ module.exports =
   exports.default = Events;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
   module.exports = require("react-big-calendar");
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
   module.exports = require("moment");
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
   'use strict';
@@ -13854,7 +13922,7 @@ module.exports =
   }];
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -13867,7 +13935,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _achievements = __webpack_require__(139);
+  var _achievements = __webpack_require__(140);
   
   var _achievements2 = _interopRequireDefault(_achievements);
   
@@ -13882,7 +13950,7 @@ module.exports =
   };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -15322,7 +15390,7 @@ module.exports =
   exports.default = Achievements;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -15335,7 +15403,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _gallery = __webpack_require__(141);
+  var _gallery = __webpack_require__(142);
   
   var _gallery2 = _interopRequireDefault(_gallery);
   
@@ -15350,7 +15418,7 @@ module.exports =
   };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -15385,171 +15453,171 @@ module.exports =
   
   var _reactBootstrap = __webpack_require__(39);
   
-  var _reactImages = __webpack_require__(142);
+  var _reactImages = __webpack_require__(143);
   
   var _reactImages2 = _interopRequireDefault(_reactImages);
   
-  var _reactPhotoGallery = __webpack_require__(143);
+  var _reactPhotoGallery = __webpack_require__(144);
   
   var _reactPhotoGallery2 = _interopRequireDefault(_reactPhotoGallery);
   
-  var _ = __webpack_require__(144);
+  var _ = __webpack_require__(145);
   
   var _2 = _interopRequireDefault(_);
   
-  var _3 = __webpack_require__(145);
+  var _3 = __webpack_require__(146);
   
   var _4 = _interopRequireDefault(_3);
   
-  var _5 = __webpack_require__(146);
+  var _5 = __webpack_require__(147);
   
   var _6 = _interopRequireDefault(_5);
   
-  var _7 = __webpack_require__(147);
+  var _7 = __webpack_require__(148);
   
   var _8 = _interopRequireDefault(_7);
   
-  var _9 = __webpack_require__(148);
+  var _9 = __webpack_require__(149);
   
   var _10 = _interopRequireDefault(_9);
   
-  var _11 = __webpack_require__(149);
+  var _11 = __webpack_require__(150);
   
   var _12 = _interopRequireDefault(_11);
   
-  var _13 = __webpack_require__(150);
+  var _13 = __webpack_require__(151);
   
   var _14 = _interopRequireDefault(_13);
   
-  var _15 = __webpack_require__(151);
+  var _15 = __webpack_require__(152);
   
   var _16 = _interopRequireDefault(_15);
   
-  var _17 = __webpack_require__(152);
+  var _17 = __webpack_require__(153);
   
   var _18 = _interopRequireDefault(_17);
   
-  var _19 = __webpack_require__(153);
+  var _19 = __webpack_require__(154);
   
   var _20 = _interopRequireDefault(_19);
   
-  var _21 = __webpack_require__(154);
+  var _21 = __webpack_require__(155);
   
   var _22 = _interopRequireDefault(_21);
   
-  var _23 = __webpack_require__(155);
+  var _23 = __webpack_require__(156);
   
   var _24 = _interopRequireDefault(_23);
   
-  var _25 = __webpack_require__(156);
+  var _25 = __webpack_require__(157);
   
   var _26 = _interopRequireDefault(_25);
   
-  var _27 = __webpack_require__(157);
+  var _27 = __webpack_require__(158);
   
   var _28 = _interopRequireDefault(_27);
   
-  var _29 = __webpack_require__(158);
+  var _29 = __webpack_require__(159);
   
   var _30 = _interopRequireDefault(_29);
   
-  var _31 = __webpack_require__(159);
+  var _31 = __webpack_require__(160);
   
   var _32 = _interopRequireDefault(_31);
   
-  var _33 = __webpack_require__(160);
+  var _33 = __webpack_require__(161);
   
   var _34 = _interopRequireDefault(_33);
   
-  var _35 = __webpack_require__(161);
+  var _35 = __webpack_require__(162);
   
   var _36 = _interopRequireDefault(_35);
   
-  var _37 = __webpack_require__(162);
+  var _37 = __webpack_require__(163);
   
   var _38 = _interopRequireDefault(_37);
   
-  var _39 = __webpack_require__(163);
+  var _39 = __webpack_require__(164);
   
   var _40 = _interopRequireDefault(_39);
   
-  var _41 = __webpack_require__(164);
+  var _41 = __webpack_require__(165);
   
   var _42 = _interopRequireDefault(_41);
   
-  var _43 = __webpack_require__(165);
+  var _43 = __webpack_require__(166);
   
   var _44 = _interopRequireDefault(_43);
   
-  var _45 = __webpack_require__(166);
+  var _45 = __webpack_require__(167);
   
   var _46 = _interopRequireDefault(_45);
   
-  var _47 = __webpack_require__(167);
+  var _47 = __webpack_require__(168);
   
   var _48 = _interopRequireDefault(_47);
   
-  var _49 = __webpack_require__(168);
+  var _49 = __webpack_require__(169);
   
   var _50 = _interopRequireDefault(_49);
   
-  var _51 = __webpack_require__(169);
+  var _51 = __webpack_require__(170);
   
   var _52 = _interopRequireDefault(_51);
   
-  var _53 = __webpack_require__(170);
+  var _53 = __webpack_require__(171);
   
   var _54 = _interopRequireDefault(_53);
   
-  var _55 = __webpack_require__(171);
+  var _55 = __webpack_require__(172);
   
   var _56 = _interopRequireDefault(_55);
   
-  var _57 = __webpack_require__(172);
+  var _57 = __webpack_require__(173);
   
   var _58 = _interopRequireDefault(_57);
   
-  var _59 = __webpack_require__(173);
+  var _59 = __webpack_require__(174);
   
   var _60 = _interopRequireDefault(_59);
   
-  var _61 = __webpack_require__(174);
+  var _61 = __webpack_require__(175);
   
   var _62 = _interopRequireDefault(_61);
   
-  var _63 = __webpack_require__(175);
+  var _63 = __webpack_require__(176);
   
   var _64 = _interopRequireDefault(_63);
   
-  var _65 = __webpack_require__(176);
+  var _65 = __webpack_require__(177);
   
   var _66 = _interopRequireDefault(_65);
   
-  var _67 = __webpack_require__(177);
+  var _67 = __webpack_require__(178);
   
   var _68 = _interopRequireDefault(_67);
   
-  var _69 = __webpack_require__(178);
+  var _69 = __webpack_require__(179);
   
   var _70 = _interopRequireDefault(_69);
   
-  var _71 = __webpack_require__(179);
+  var _71 = __webpack_require__(180);
   
   var _72 = _interopRequireDefault(_71);
   
-  var _73 = __webpack_require__(180);
+  var _73 = __webpack_require__(181);
   
   var _74 = _interopRequireDefault(_73);
   
-  var _75 = __webpack_require__(181);
+  var _75 = __webpack_require__(182);
   
   var _76 = _interopRequireDefault(_75);
   
-  var _77 = __webpack_require__(182);
+  var _77 = __webpack_require__(183);
   
   var _78 = _interopRequireDefault(_77);
   
-  var _79 = __webpack_require__(183);
+  var _79 = __webpack_require__(184);
   
   var _80 = _interopRequireDefault(_79);
   
@@ -15651,259 +15719,259 @@ module.exports =
   exports.default = DAGallery;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
   module.exports = require("react-images");
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
   module.exports = require("react-photo-gallery");
 
 /***/ }),
-/* 144 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "public/gallary/1.jpg?72cc118fef8ad6990510bc1ec3d8188b";
-
-/***/ }),
 /* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/2.jpg?3531270ce5ec843d01e930ad70294523";
+  module.exports = __webpack_require__.p + "public/gallary/1.jpg?4c13460a1d91952f512790f5076121c1";
 
 /***/ }),
 /* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/3.jpg?d862bde4e0e2068cbdbb590f788c8e14";
+  module.exports = __webpack_require__.p + "public/gallary/2.jpg?bb04fb4509aabcb940e3bdcb6439a2eb";
 
 /***/ }),
 /* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/4.jpg?5ed6da81cc060f256067789ac5f3094b";
+  module.exports = __webpack_require__.p + "public/gallary/3.jpg?d862bde4e0e2068cbdbb590f788c8e14";
 
 /***/ }),
 /* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/5.jpg?42f2247e0a476f844b63cbc443125a94";
+  module.exports = __webpack_require__.p + "public/gallary/4.jpg?5ed6da81cc060f256067789ac5f3094b";
 
 /***/ }),
 /* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/6.jpg?7e6ab7d5558a671dab80f6997ea13643";
+  module.exports = __webpack_require__.p + "public/gallary/5.jpg?42f2247e0a476f844b63cbc443125a94";
 
 /***/ }),
 /* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/7.jpg?52bf2e5a74eb366c2599a94317f554c4";
+  module.exports = __webpack_require__.p + "public/gallary/6.jpg?7e6ab7d5558a671dab80f6997ea13643";
 
 /***/ }),
 /* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/8.jpg?63a8799f9ad2b4ea5e9aeabab46827a7";
+  module.exports = __webpack_require__.p + "public/gallary/7.jpg?ed7de0d91c281e5e7dd68432b6627cf8";
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/9.jpg?4f2337eeac8e1858d6a64ea8a0022df8";
+  module.exports = __webpack_require__.p + "public/gallary/8.jpg?669f3cf26395cdc2a2b0ad8913d027fd";
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/10.jpg?97b6f516cca2bbc79db11834693b9d19";
+  module.exports = __webpack_require__.p + "public/gallary/9.jpg?4f2337eeac8e1858d6a64ea8a0022df8";
 
 /***/ }),
 /* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/11.jpg?c9be9e94e01c1ec5610facf05352c0ab";
+  module.exports = __webpack_require__.p + "public/gallary/10.jpg?97b6f516cca2bbc79db11834693b9d19";
 
 /***/ }),
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/12.jpg?e3c29a4a2e6961f08322b6052a66a2c4";
+  module.exports = __webpack_require__.p + "public/gallary/11.jpg?c9be9e94e01c1ec5610facf05352c0ab";
 
 /***/ }),
 /* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/13.jpg?13c046a0d356a599f5d0dd09192bc70f";
+  module.exports = __webpack_require__.p + "public/gallary/12.jpg?e3c29a4a2e6961f08322b6052a66a2c4";
 
 /***/ }),
 /* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/14.jpg?4b75eea33f926eb8d80f191bce476c83";
+  module.exports = __webpack_require__.p + "public/gallary/13.jpg?13c046a0d356a599f5d0dd09192bc70f";
 
 /***/ }),
 /* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/15.jpg?3d2a92a916f84b91731d3bd5cf987ad3";
+  module.exports = __webpack_require__.p + "public/gallary/14.jpg?4b75eea33f926eb8d80f191bce476c83";
 
 /***/ }),
 /* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/16.jpg?ba45ee8c242bc5a9322266f16da9654f";
+  module.exports = __webpack_require__.p + "public/gallary/15.jpg?3d2a92a916f84b91731d3bd5cf987ad3";
 
 /***/ }),
 /* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/17.png?060801d0b340148c8032a116c623c627";
+  module.exports = __webpack_require__.p + "public/gallary/16.jpg?ba45ee8c242bc5a9322266f16da9654f";
 
 /***/ }),
 /* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/18.jpg?85628d02b4f951ef4a297ff1f8344621";
+  module.exports = __webpack_require__.p + "public/gallary/17.png?060801d0b340148c8032a116c623c627";
 
 /***/ }),
 /* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/19.jpg?9c02ed1e61f6ac11e244340ff893aee1";
+  module.exports = __webpack_require__.p + "public/gallary/18.jpg?85628d02b4f951ef4a297ff1f8344621";
 
 /***/ }),
 /* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/20.jpg?db20099ff76482b44c79f813aca8834f";
+  module.exports = __webpack_require__.p + "public/gallary/19.jpg?9c02ed1e61f6ac11e244340ff893aee1";
 
 /***/ }),
 /* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/21.jpg?760838e06cab939bdb57d40586a6c564";
+  module.exports = __webpack_require__.p + "public/gallary/20.jpg?db20099ff76482b44c79f813aca8834f";
 
 /***/ }),
 /* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/22.jpg?ed682aaa17b507ab19b5a0446bf9c59e";
+  module.exports = __webpack_require__.p + "public/gallary/21.jpg?760838e06cab939bdb57d40586a6c564";
 
 /***/ }),
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/23.jpg?6317797ef95018409aee16be6c0edf2c";
+  module.exports = __webpack_require__.p + "public/gallary/22.jpg?ed682aaa17b507ab19b5a0446bf9c59e";
 
 /***/ }),
 /* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/24.jpg?25a1322f54ef976cb39a90c043c363b8";
+  module.exports = __webpack_require__.p + "public/gallary/23.jpg?6317797ef95018409aee16be6c0edf2c";
 
 /***/ }),
 /* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/25.jpg?b1d9ee71fe40609d066c966bb3a21404";
+  module.exports = __webpack_require__.p + "public/gallary/24.jpg?25a1322f54ef976cb39a90c043c363b8";
 
 /***/ }),
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/26.jpg?c9d1d3f0e4a8daebb1e599c7447f5450";
+  module.exports = __webpack_require__.p + "public/gallary/25.jpg?b1d9ee71fe40609d066c966bb3a21404";
 
 /***/ }),
 /* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/27.jpg?553012afcb2499252f34fab1ce46c8c3";
+  module.exports = __webpack_require__.p + "public/gallary/26.jpg?c9d1d3f0e4a8daebb1e599c7447f5450";
 
 /***/ }),
 /* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/28.jpg?4d1aab32be9d6b336f8c168e242ea482";
+  module.exports = __webpack_require__.p + "public/gallary/27.jpg?553012afcb2499252f34fab1ce46c8c3";
 
 /***/ }),
 /* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/29.jpg?12dc14e779fa1a40da5aae8b3f345f4e";
+  module.exports = __webpack_require__.p + "public/gallary/28.jpg?4d1aab32be9d6b336f8c168e242ea482";
 
 /***/ }),
 /* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/30.jpg?640174f986df51d4bce90a14fc963f5b";
+  module.exports = __webpack_require__.p + "public/gallary/29.jpg?12dc14e779fa1a40da5aae8b3f345f4e";
 
 /***/ }),
 /* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/31.jpg?0b990edfcc7cf2b75a994c6d5823e3cd";
+  module.exports = __webpack_require__.p + "public/gallary/30.jpg?640174f986df51d4bce90a14fc963f5b";
 
 /***/ }),
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/32.jpg?3ef153adf9b25baa3739171d1156af6d";
+  module.exports = __webpack_require__.p + "public/gallary/31.jpg?0b990edfcc7cf2b75a994c6d5823e3cd";
 
 /***/ }),
 /* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/33.jpg?b9ed08ac400e9c7a526dda43e368a9ff";
+  module.exports = __webpack_require__.p + "public/gallary/32.jpg?3ef153adf9b25baa3739171d1156af6d";
 
 /***/ }),
 /* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/34.jpg?557795074f8c7af7743363c2abba90d6";
+  module.exports = __webpack_require__.p + "public/gallary/33.jpg?b9ed08ac400e9c7a526dda43e368a9ff";
 
 /***/ }),
 /* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/35.jpg?81838b4112b18bf593fe130a4bf931c8";
+  module.exports = __webpack_require__.p + "public/gallary/34.jpg?557795074f8c7af7743363c2abba90d6";
 
 /***/ }),
 /* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/36.jpg?afcf4fa0b62ebd28c4d651dfc5fa4451";
+  module.exports = __webpack_require__.p + "public/gallary/35.jpg?81838b4112b18bf593fe130a4bf931c8";
 
 /***/ }),
 /* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/37.jpg?02457036aaeff0d7aea6b70dfce02477";
+  module.exports = __webpack_require__.p + "public/gallary/36.jpg?afcf4fa0b62ebd28c4d651dfc5fa4451";
 
 /***/ }),
 /* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/38.jpg?3aa8d5aafd74b990e403440cf989340d";
+  module.exports = __webpack_require__.p + "public/gallary/37.jpg?02457036aaeff0d7aea6b70dfce02477";
 
 /***/ }),
 /* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/39.jpg?71e617103e136a37bfe93a805b3627ff";
+  module.exports = __webpack_require__.p + "public/gallary/38.jpg?3aa8d5aafd74b990e403440cf989340d";
 
 /***/ }),
 /* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "public/gallary/40.jpg?f35894d45086eab7404fc1154cdb4a1d";
+  module.exports = __webpack_require__.p + "public/gallary/39.jpg?71e617103e136a37bfe93a805b3627ff";
 
 /***/ }),
 /* 184 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "public/gallary/40.jpg?f35894d45086eab7404fc1154cdb4a1d";
+
+/***/ }),
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -15952,7 +16020,7 @@ module.exports =
       */
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports) {
 
   module.exports = require("./assets");

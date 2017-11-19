@@ -23,14 +23,19 @@ export default [
       webmail_id: 'synapse@daiict.ac.in',
       website: 'http://synapse.daiict.ac.in',
       youtube: 'https://www.youtube.com/user/SynapseDAIICT',
-      facebook: 'https://www.instagram.com/synapsedaiict/',
+      instagram: 'https://www.instagram.com/synapsedaiict/',
     },
     reports: [
       {
         event: 'Synapse 2017 Glimpses',
         link: 'https://drive.google.com/drive/folders/1kkku0RBDUzXTDhbJo2MDg_UVGy4MftNI',
         date: '23th to 26th February, 2017',
-      }
+      },
+      {
+        event: 'Youth Run',
+        link: 'https://docs.google.com/document/d/1g9h2EmOiLFFUjZrW5-HqrOIEk2Kk2bbUZTe6H-2qJME/edit?usp=sharing',
+        date: '22nd January, 2017',
+      },
     ],
   },
   {
@@ -58,6 +63,16 @@ export default [
       facebook: 'https://www.facebook.com/DaiictCulturalCommittee/',
     },
     reports: [
+      {
+        event: 'Waltz - Dance Nite',
+        link: 'https://docs.google.com/document/d/1fK1-gBNm6lHwuL3On9IsZM5pRPO6ZdJm-EXBpnr0VWo/edit?usp=sharing',
+        date: '13th November, 2017',
+      },
+      {
+        event: 'Halloween',
+        link: 'https://docs.google.com/document/d/1teJV79wwB0Fw7G0E-mwnihk7cTQxtwAGAoQZ0pmNOw8/edit?usp=sharing',
+        date: '4th November, 2017',
+      },
       {
         event: 'Diwali',
         link: 'https://docs.google.com/document/d/1tEYPfFfcsov8twInesH0kYvWiGZkgseW9XT61OtYgxw/edit?usp=sharing',
@@ -150,9 +165,9 @@ export default [
     role: 'The primary role of the ICT Committee is to represent student views and issues related to ICT resources to the concerned authorities (Help Desk, System Admin, Web Committee and ICT Convener) and vice versa. Also, to conduct and/or coordinate sessions over various tools and technologies (eg. Moo- dle) which are used in daily life by the DAIICT community. Further, they play an active role in all the technical assistance required for all the events on campus including sound setup and pack up, maintenance of the technical inventory.',
     contact: {
       c_name: 'Jay Bhuva',
-      dc_name: 'Ishan Changela',
+      dc_name: 'Megh Shah',
       c_num: '+91 9033063062',
-      dc_num: '+91 8460238396',
+      dc_num: '+91 9409265756',
       webmail_id: 'ict_sbg@daiict.ac.in',
     },
   },

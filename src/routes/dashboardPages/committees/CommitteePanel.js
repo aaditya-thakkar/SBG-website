@@ -15,6 +15,10 @@ export default class CommitteePanel extends React.Component {
       <div><a href={this.props.contact.facebook} target="_blank" rel="noopener noreferrer" className="fa fa-facebook-square black-link">
         {`  ${this.props.contact.facebook}`}
       </a><br /><br /></div>;
+    const insta = this.props.contact.instagram &&
+      <div><a href={this.props.contact.instagram} target="_blank" rel="noopener noreferrer" className="fa fa-camera-retro black-link" >
+        {`  ${this.props.contact.instagram}`}
+      </a><br /><br /></div>;
     const youtube = this.props.contact.youtube && <div><a href={this.props.contact.youtube} target="_blank" rel="noopener noreferrer" className="fa fa-youtube-play black-link">
       {`  ${this.props.contact.youtube}`}
     </a><br /><br /></div>;
@@ -22,7 +26,7 @@ export default class CommitteePanel extends React.Component {
       {`  ${this.props.contact.website}`}
     </a><br /><br /></div>;
     return (
-      <Panel bsStyle={this.props.bsStyle} collapsible header={this.props.header} eventKey="1">
+      <Panel bsStyle={this.props.bsStyle} collapsible header={this.props.header} eventKey={this.props.eventKey}>
         <Tabs id="tabs1" defaultActiveKey={1}>
           <Tab eventKey={1} title="Role">
             <br />
@@ -33,6 +37,7 @@ export default class CommitteePanel extends React.Component {
             {mail}
             {website}
             {fb}
+            {insta}
             {youtube}
             <p className="fa fa-phone">
               {`  ${this.props.contact.c_num}  (${this.props.contact.c_name}, Convener)`}

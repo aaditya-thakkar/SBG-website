@@ -1,5 +1,17 @@
 export default [
   {
+    title: 'Waltz - Dance Nite',
+    date: new Date(2017, 10, 13),
+    link: 'https://docs.google.com/document/d/1fK1-gBNm6lHwuL3On9IsZM5pRPO6ZdJm-EXBpnr0VWo/edit?usp=sharing',
+    active: true,
+  },
+  {
+    title: 'Halloween Nite',
+    date: new Date(2017, 10, 4),
+    link: 'https://docs.google.com/document/d/1teJV79wwB0Fw7G0E-mwnihk7cTQxtwAGAoQZ0pmNOw8/edit?usp=sharing',
+    active: true,
+  },
+  {
     title: 'Visit to an Old Age Home',
     date: new Date(2017, 9, 31),
     link: 'https://docs.google.com/document/d/1ZaBfd6CQ5eE3x-gEXcNEf3J8XKGtDOt9HJPHoIzeVfU/edit',
@@ -8,7 +20,7 @@ export default [
   {
     title: 'Manual Robotics Workshop',
     date: new Date(2017, 9, 31),
-    link: '',
+    link: 'https://docs.google.com/document/d/1F9Ir6bwAEgiwWmzB--opDZuLbo5_zIhRaeTh9Oc1HJE/edit?usp=sharing',
     active: true,
   },
   {
@@ -39,7 +51,7 @@ export default [
     title: 'Educational visit to ISRO Labs, Ahmedabad',
     date: new Date(2017, 8, 20),
     link: 'https://docs.google.com/document/d/1AsJUMJzjQkDUtkH6oZfjCL63UCY0ngvNBYwp7G5MkPw/edit',
-    active: true,
+    active: false,
   },
   {
     title: 'Abhijit Ghodgaonkar got second rank on "Multiple Blind Folded" category in the Cubing Competition "SCMU 2017" (WCA) held in Mumbai.',
@@ -51,7 +63,7 @@ export default [
     title: 'Mosaic of Dr. Sarvepalli Radhakrishnan by The Cubing Club during Teacher\'s Day 2017',
     date: new Date(2017, 8, 5),
     link: 'https://www.youtube.com/watch?v=YBe4Sh9g3jI',
-    active: true,
+    active: false,
   },
   {
     title: 'Three members of MSTC selected as Microsoft Student Partner (2017-18)',

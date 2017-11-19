@@ -14,13 +14,14 @@ import StatWidget from '../../components/Widget';
 import Donut from '../../components/Donut';
 import LabeledPie from '../../components/LabeledPie';
 import recentUpdates from './recentUpdates';
+import sbgLogo from '../../public/tile.png';
 
 const title = 'SBG | DA-IICT';
 
 const donutUGData = [
   { name: 'Academic Committee', value: 8 },
   { name: 'Cultural Committee', value: 11 },
-  { name: 'Annual Festival Committee', value: 13 },
+  { name: 'Annual Festival Committee', value: 14 },
   { name: 'Student Placement Cell', value: 20 },
   { name: 'Cafeteia Management Committee', value: 4 },
   { name: 'ICT Committee', value: 6 },
@@ -31,7 +32,7 @@ const donutUGData = [
 const donutPGData = [
   { name: 'Academic Committee', value: 2 },
   { name: 'Cultural Committee', value: 2 },
-  { name: 'Annual Festival Committee', value: 2 },
+  { name: 'Annual Festival Committee', value: 1 },
   { name: 'Student Placement Cell', value: 11 },
   { name: 'Cafeteia Management Committee', value: 2 },
   { name: 'ICT Committee', value: 2 },
@@ -342,7 +343,10 @@ class Home extends React.Component {
                 <h4><i className="fa fa-shield fa-fw" />&nbsp;&nbsp;Student Body Government Vision</h4>
               </span>}
             >
-              <div>
+              <div className='col-md-3'>
+                <img src={sbgLogo} height={130} width={130} />
+              </div>
+              <div className='col-md-9'>
                 <p>We, the students of DA-IICT, resolve to constitute a self governing democratic organization
                   called DA-IICT Student Body Government for the purposes of:</p>
                 <ul>
@@ -529,12 +533,12 @@ class Home extends React.Component {
               </span>}
             >
               <Tabs id="tabs11" defaultActiveKey={1}>
-                <Tab eventKey={1} title="Under Graduate (98)">
+                <Tab eventKey={1} title="Under Graduate (99)">
                   <div>
                     <Donut data={donutUGData} color="#2c3e50" innerRadius="70%" outerRadius="90%" />
                   </div>
                 </Tab>
-                <Tab eventKey={2} title="Post Graduate (24)">
+                <Tab eventKey={2} title="Post Graduate (23)">
                   <Donut data={donutPGData} color="#2c3e50" innerRadius="70%" outerRadius="90%" />
                 </Tab>
               </Tabs>

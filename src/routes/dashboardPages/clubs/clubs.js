@@ -22,13 +22,14 @@ class Clubs extends React.Component {
         </div>
         <br /><br />
         <PanelGroup>
-          {clubsInfo.map(item => (
+          {clubsInfo.map((item, i) => (
             <ClubsPanel
               header={item.header}
               role={item.role}
               contact={item.contact}
               reports={_.get(item, 'reports', null)}
               bsStyle={item.style}
+              eventKey={i}
             />
             ))}
         </PanelGroup>

@@ -20,7 +20,7 @@ class Committees extends React.Component {
         </div>
         <br /><br />
         <PanelGroup>
-          {committeesInfo.map(item => {
+          {committeesInfo.map((item, i) => {
             return (
               <CommitteePanel
                 header={item.header}
@@ -28,6 +28,7 @@ class Committees extends React.Component {
                 contact={item.contact}
                 reports={_.get(item, 'reports', null)}
                 bsStyle={item.style}
+                eventKey={i}
               />
             );
           })}

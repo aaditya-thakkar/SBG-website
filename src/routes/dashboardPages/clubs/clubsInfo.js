@@ -47,13 +47,14 @@ export default [
   {
     header: 'Music Club',
     style: 'danger',
-    role: 'Dance Club or DADC as it is popularly known, tries to cater to all kind of dancing instincts of students. We are not professional dancers, just amateurs trying to shake a leg here and there. We have grown over the years with our regional and national level wins. We also organize workshops from time to time to engage students and make them feel the exhilarating effects of dancing. We at Dance Club, choreograph, dance, practice hard and put our best foot forward.',
+    role: 'The Music Club of DA-IICT aims to develop an interest in students towards music and create a healthy music atmosphere amongst the student community. To achieve this purpose, we organise various \'Acoustic Nite Lives\' for the students to perform with their friends or other music enthusiasts. We also form teams to compete in various music competitions in the annual cultural festivals of various prestigious institutes throughout the year. One of the major events which we perform in is the Ragnarock. Apart from this, we strive to organise various informal jamming sessions where a group of students just gets together and sings its heart out. The sole vision of the Music Club is to keep the music taste, talent and atmosphere alive in the music enthusiasts of DA\'s student community and to provide platforms to nurture this talent',
     contact: {
       c_name: 'Rudra Chandak',
       c_num: '+91 9173244011',
       webmail_id: 'music_club@daiict.ac.in',
       facebook: 'https://www.facebook.com/musicclubdaiict/',
       youtube: 'http://www.youtube.com/channel/UC688bugvcKm8A2tFklL0U-A',
+      instagram: 'https://www.instagram.com/musicclubdaiict/',
     },
     reports: [
       {
@@ -288,6 +289,11 @@ export default [
       webmail_id: 'ehc@daiict.ac.in',
     },
     reports: [
+      {
+        event: 'Manual Robotics Workshop by EHC',
+        link: 'https://docs.google.com/document/d/1F9Ir6bwAEgiwWmzB--opDZuLbo5_zIhRaeTh9Oc1HJE/edit?usp=sharing',
+        date: '1st November, 2017',
+      },
       {
         event: 'EHC Activities and Sessions',
         link: 'https://docs.google.com/document/d/1CAGEmaIVExsyZH5mtgia38uMsvXiUsyrnKtxwxjXhP8/edit?usp=sharing',

@@ -27,6 +27,10 @@ body {
     }
 }
 
+a:focus, a:hover {
+  cursor: pointer;
+}
+
 .navbar-top-links {
     margin-right: 0;
 }
