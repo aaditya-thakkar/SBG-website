@@ -11114,10 +11114,10 @@ module.exports =
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'SBG Core Team';
-  var ysPp = __webpack_require__(191);
-  var vsPp = __webpack_require__(190);
-  var akPp = __webpack_require__(187);
-  var ymPp = __webpack_require__(188);
+  var ysPp = __webpack_require__(111);
+  var vsPp = __webpack_require__(112);
+  var akPp = __webpack_require__(113);
+  var ymPp = __webpack_require__(114);
   
   var displayBlank = function (_React$Component) {
     (0, _inherits3.default)(displayBlank, _React$Component);
@@ -11276,10 +11276,30 @@ module.exports =
   exports.default = displayBlank;
 
 /***/ }),
-/* 111 */,
-/* 112 */,
-/* 113 */,
-/* 114 */,
+/* 111 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ys_pp.jpg?1ffc2194e276b540b3192244f5e28fff";
+
+/***/ }),
+/* 112 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/vs_pp.jpg?2f817622a8f57b18a49aaca7ed3dc7bd";
+
+/***/ }),
+/* 113 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ak_pp.jpg?7de98a8fbef8c3d6eb06125392babd1e";
+
+/***/ }),
+/* 114 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ym_pp.jpg?26ace52661cb63bd13fe21a2c4f78f42";
+
+/***/ }),
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15999,31 +16019,6 @@ module.exports =
 /***/ (function(module, exports) {
 
   module.exports = require("./assets");
-
-/***/ }),
-/* 187 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ak_pp.jpg?7de98a8fbef8c3d6eb06125392babd1e";
-
-/***/ }),
-/* 188 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ym_pp.jpg?26ace52661cb63bd13fe21a2c4f78f42";
-
-/***/ }),
-/* 189 */,
-/* 190 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/vs_pp.jpg?2f817622a8f57b18a49aaca7ed3dc7bd";
-
-/***/ }),
-/* 191 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ys_pp.jpg?1ffc2194e276b540b3192244f5e28fff";
 
 /***/ })
 /******/ ]);

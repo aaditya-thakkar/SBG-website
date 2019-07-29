@@ -1,9 +1,5 @@
 {
   "private": true,
-  "engines": {
-    "node": ">=5.0 <7",
-    "npm": ">=3.3 <4"
-  },
   "dependencies": {
     "babel-polyfill": "6.13.0",
     "babel-runtime": "6.11.6",
