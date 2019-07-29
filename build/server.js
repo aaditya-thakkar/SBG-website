@@ -1927,7 +1927,7 @@ module.exports =
             _react2.default.createElement(
               'strong',
               null,
-              '30 Anti-Ragging Members assigned by the SBG Core.'
+              '17 Anti-Ragging Members assigned by the SBG Core.'
             )
           )
         ),
@@ -1937,11 +1937,11 @@ module.exports =
           null,
           _react2.default.createElement(
             _reactBootstrap.Button,
-            { href: 'https://docs.google.com/spreadsheets/d/1SZ9OkaZUQciEyMlevUHL8qAXlf30Qw8cuyk9WWZS00k/edit?usp=sharing', target: '_blank' },
+            { href: 'https://docs.google.com/spreadsheets/d/1ts3rF0QMKr1ro8Z7VJOuJz7ebeuATQoxFPzqCTlgFds/edit?usp=sharing', target: '_blank' },
             _react2.default.createElement(
               'b',
               null,
-              'Anti-Ragging Committee 2017-18'
+              'Anti-Ragging Committee 2019-20'
             )
           )
         )
@@ -2154,13 +2154,13 @@ module.exports =
               _react2.default.createElement(
                 'b',
                 null,
-                'Kritika Somani'
+                'Jhanvi Chauhan'
               )
             ),
             _react2.default.createElement(
               'p',
               null,
-              'Contact: +91 8141246869'
+              'Contact: +91 81603 81186'
             )
           ),
           _react2.default.createElement(
@@ -2172,13 +2172,13 @@ module.exports =
               _react2.default.createElement(
                 'b',
                 null,
-                'Akshay Miterani'
+                'Arnab Gupta'
               )
             ),
             _react2.default.createElement(
               'p',
               null,
-              'Contact: +91 9586594944'
+              'Contact: +91 83693 75096'
             )
           )
         ),
@@ -2594,17 +2594,17 @@ module.exports =
                   _react2.default.createElement(
                     'li',
                     null,
-                    'Piyushi Pawan'
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    'Aashini Soni'
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
                     'Gaurav Sofat'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Neha Jain'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Rohin Nanavati'
                   )
                 ),
                 _react2.default.createElement(
@@ -2965,16 +2965,16 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n}\n\n.Home_root_2IM {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Home_container_2Ye {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n\n.Home_news_oTy {\n  padding: 0;\n}\n\n.Home_newsItem_3Ob {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.Home_newsTitle_1yW {\n  font-size: 1.125em;\n}\n\n.Home_newsTitle_1yW,\n.Home_newsDesc_21L {\n  display: block;\n}\n", "", {"version":3,"sources":["/./routes/home/Home.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;ADnBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAoC;CACrC;;AAED;EACE,WAAW;CACZ;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CACrB;;AAED;EACE,mBAAmB;CACpB;;AAED;;EAEE,eAAe;CAChB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: var(--max-content-width);\n}\n\n.news {\n  padding: 0;\n}\n\n.newsItem {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.newsTitle {\n  font-size: 1.125em;\n}\n\n.newsTitle,\n.newsDesc {\n  display: block;\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n}\n\n.Home_root_3mf {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Home_container_2ac {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n\n.Home_news_1G- {\n  padding: 0;\n}\n\n.Home_newsItem_3n- {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.Home_newsTitle_Pdo {\n  font-size: 1.125em;\n}\n\n.Home_newsTitle_Pdo,\n.Home_newsDesc_1JF {\n  display: block;\n}\n", "", {"version":3,"sources":["/./routes/home/Home.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;ADnBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAoC;CACrC;;AAED;EACE,WAAW;CACZ;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CACrB;;AAED;EACE,mBAAmB;CACpB;;AAED;;EAEE,eAAe;CAChB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: var(--max-content-width);\n}\n\n.news {\n  padding: 0;\n}\n\n.newsItem {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.newsTitle {\n  font-size: 1.125em;\n}\n\n.newsTitle,\n.newsDesc {\n  display: block;\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
-  	"root": "Home_root_2IM",
-  	"container": "Home_container_2Ye",
-  	"news": "Home_news_oTy",
-  	"newsItem": "Home_newsItem_3Ob",
-  	"newsTitle": "Home_newsTitle_1yW",
-  	"newsDesc": "Home_newsDesc_21L"
+  	"root": "Home_root_3mf",
+  	"container": "Home_container_2ac",
+  	"news": "Home_news_1G-",
+  	"newsItem": "Home_newsItem_3n-",
+  	"newsTitle": "Home_newsTitle_Pdo",
+  	"newsDesc": "Home_newsDesc_1JF"
   };
 
 /***/ }),
@@ -7821,38 +7821,42 @@ module.exports =
     value: true
   });
   exports.default = [{
-    title: 'Waltz - Dance Nite',
-    date: new Date(2017, 10, 13),
+    title: 'SBG Core Elections 2019-20',
+    date: new Date(2019, 4, 6),
+    active: true
+  }, {
+    title: 'Khelaiya Club bagged 1st runners up at Chaos IIM-A',
+    date: new Date(2019, 1, 27),
     link: 'https://docs.google.com/document/d/1fK1-gBNm6lHwuL3On9IsZM5pRPO6ZdJm-EXBpnr0VWo/edit?usp=sharing',
     active: true
   }, {
-    title: 'Halloween Nite',
-    date: new Date(2017, 10, 4),
+    title: 'Republic Day Celebration',
+    date: new Date(2019, 1, 26),
     link: 'https://docs.google.com/document/d/1teJV79wwB0Fw7G0E-mwnihk7cTQxtwAGAoQZ0pmNOw8/edit?usp=sharing',
     active: true
   }, {
-    title: 'Visit to an Old Age Home',
-    date: new Date(2017, 9, 31),
+    title: 'Final Year batch photoshoot',
+    date: new Date(2018, 11, 22),
     link: 'https://docs.google.com/document/d/1ZaBfd6CQ5eE3x-gEXcNEf3J8XKGtDOt9HJPHoIzeVfU/edit',
     active: true
   }, {
-    title: 'Manual Robotics Workshop',
-    date: new Date(2017, 9, 31),
+    title: 'SBG By-elections for the post of treasurer and secretary',
+    date: new Date(2018, 11, 15),
     link: 'https://docs.google.com/document/d/1F9Ir6bwAEgiwWmzB--opDZuLbo5_zIhRaeTh9Oc1HJE/edit?usp=sharing',
     active: true
   }, {
-    title: 'Mosaic of Albert Einstein by The Cubing Club during I.Fest 2017',
-    date: new Date(2017, 9, 26),
+    title: 'SBG General Meeting',
+    date: new Date(2018, 10, 19),
     link: 'https://drive.google.com/open?id=0BzhQRE0vs1ndYkl4dkQ5cldjb1U',
     active: true
   }, {
-    title: 'Blood Donation Camp',
-    date: new Date(2017, 9, 3),
+    title: 'Mega Cleanliness Drive as a part of swachha Bharat',
+    date: new Date(2018, 10, 2),
     link: 'https://docs.google.com/document/d/1ZfPWLrXBrfrZFTu61AgJQAdNEGNDSOAQ0q7MYMtdnY8/edit',
     active: true
   }, {
-    title: 'HoR Cleanliness Drive',
-    date: new Date(2017, 8, 27),
+    title: 'SBG Budget Session',
+    date: new Date(2018, 9, 7),
     link: 'https://docs.google.com/document/d/1E8QEIatubCZsWoY8Ylg1TE3SvuzaG0Ckn53YE7e9BQc/edit',
     active: true
   }, {
@@ -11110,10 +11114,10 @@ module.exports =
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'SBG Core Team';
-  var smPp = __webpack_require__(111);
-  var jnPp = __webpack_require__(112);
-  var nlPp = __webpack_require__(113);
-  var bmPp = __webpack_require__(114);
+  var ysPp = __webpack_require__(191);
+  var vsPp = __webpack_require__(190);
+  var akPp = __webpack_require__(187);
+  var ymPp = __webpack_require__(188);
   
   var displayBlank = function (_React$Component) {
     (0, _inherits3.default)(displayBlank, _React$Component);
@@ -11168,7 +11172,7 @@ module.exports =
             _react2.default.createElement(
               _reactBootstrap.Carousel.Item,
               null,
-              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: smPp }),
+              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: ysPp }),
               _react2.default.createElement(
                 _reactBootstrap.Carousel.Caption,
                 null,
@@ -11180,14 +11184,14 @@ module.exports =
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Samarth Parikh, B.Tech 4th year (+91 94281 09090).'
+                  'Yash Shah, B.Tech 4th year (+91 99250 69749).'
                 )
               )
             ),
             _react2.default.createElement(
               _reactBootstrap.Carousel.Item,
               null,
-              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: jnPp }),
+              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: vsPp }),
               _react2.default.createElement(
                 _reactBootstrap.Carousel.Caption,
                 null,
@@ -11199,14 +11203,14 @@ module.exports =
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Jinesh Shah, B.Tech 4th year (+91 89807 79867).'
+                  'Vandan Soni, B.Tech 4th year (+91 74052 72305).'
                 )
               )
             ),
             _react2.default.createElement(
               _reactBootstrap.Carousel.Item,
               null,
-              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: nlPp }),
+              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: akPp }),
               _react2.default.createElement(
                 _reactBootstrap.Carousel.Caption,
                 null,
@@ -11218,14 +11222,14 @@ module.exports =
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Nilay Shrimali, B.Tech 4th year (+91 70462 95423).'
+                  'Abhishek Kalavadiya, B.Tech 4th year (+91 87583 08779).'
                 )
               )
             ),
             _react2.default.createElement(
               _reactBootstrap.Carousel.Item,
               null,
-              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: bmPp }),
+              _react2.default.createElement('img', { width: 600, height: 200, alt: '500x300', src: ymPp }),
               _react2.default.createElement(
                 _reactBootstrap.Carousel.Caption,
                 null,
@@ -11237,7 +11241,7 @@ module.exports =
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Bhargav Makwana, B.Tech 3rd year (+91 91737 70828).'
+                  'Yash Mehta, B.Tech 4th year (+91 83065 53698).'
                 )
               )
             )
@@ -11272,30 +11276,10 @@ module.exports =
   exports.default = displayBlank;
 
 /***/ }),
-/* 111 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/sm_pp.jpeg?8f93c58808057d22f40ca343a93b4db4";
-
-/***/ }),
-/* 112 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/jn.jpeg?e6f2a8eca47ad85f451493bb4823da0f";
-
-/***/ }),
-/* 113 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/nl_pp.jpg?90550af9c02dbcd735e04a04c4bcb7d3";
-
-/***/ }),
-/* 114 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/bm_pp.jpg?af05da872ed5949963b7e5a9e5549ead";
-
-/***/ }),
+/* 111 */,
+/* 112 */,
+/* 113 */,
+/* 114 */,
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11676,10 +11660,10 @@ module.exports =
     style: 'success',
     role: 'The Academic Committee works as an interface between the student community and the administration of the institute (including Dean Academics, Registrar, Institute committees, and the Director) for the development of the academic environment, and enhancement of academic life in DA-IICT.Their primary function is to convey the views, concerns, and problems, related to academics, of the student community to the institute administration (specifically, the various academic related committees of the institute) so as to enhance the quality of academic life and programs, and foster a conducive academic environment in the institute. Also, to organize activities that will enhance the academic aspects of student life in any and every possible way.',
     contact: {
-      c_name: 'Jinesh Shah',
-      dc_name: 'Kelay Shah',
-      c_num: '+91 8980779867',
-      dc_num: '+91 8000971501',
+      c_name: 'Rohit Chaku',
+      dc_name: 'Parth Dadhania',
+      c_num: '+91 9898782230',
+      dc_num: '+91 7600014164',
       webmail_id: 'sbg_academics@daiict.ac.in'
     }
   }, {
@@ -11687,10 +11671,10 @@ module.exports =
     style: 'info',
     role: 'The Annual Festival Committee of DA-IICT works to provide a platform for students around the country to compete and showcase their talent. We are the proud organizers of the annual techno-cultural festival of DA-IICT – Synapse.\nSynapse is a celebration – a celebration of culture, technology and life. It is about realizing the underlying inherent junction of the three in an electrifying atmosphere. One of the most prominent college fests of Gujarat, it is a spectacle of our talent, aspirations, creativity and vision. Through exciting workshops, impressive events, and mesmerizing pro-nights, Synapse is a medium through which the youth can express their views; be it through art, culture, technological skills, knowledge or entertainment. It is a time when the student community comes forward to show its intensity, passion and enthusiasm. \nWe, at Synapse, hope to create the best four days at DA-IICT in an effort to give back to the DA-IICT community, students and faculty alike, for all their love, hard work, and dedication.',
     contact: {
-      c_name: 'Chirang Malviya',
-      dc_name: 'Aashay Binaykia',
-      c_num: '+91 8128697799',
-      dc_num: '+91 8981641460',
+      c_name: 'TBD',
+      dc_name: 'TBD',
+      c_num: '+91 ~',
+      dc_num: '+91 ~',
       webmail_id: 'synapse@daiict.ac.in',
       website: 'http://synapse.daiict.ac.in',
       youtube: 'https://www.youtube.com/user/SynapseDAIICT',
@@ -11710,10 +11694,10 @@ module.exports =
     style: 'default',
     role: 'Cafeteria Management Committee (CMC) addresses the issues related to cafeteria of DA-IICT. It does regular inspection of all the counters in the cafeteria and ensure that proper hygienic standards are maintained. It works as an intermediate body between the students and the administration of DA-IICT. It resolves issues raised by the students regarding cafeteria. They convey problems related to hygiene and quality of food available at DA-IICT cafeteria. Along with SBG Core and administration department of DA-IICT, they play an active role in deciding the price of food items and make sure that neither students nor the vendors are at loss. They also ensure proper working of night cafeteria of HOR-Women.',
     contact: {
-      c_name: 'Adit Shah',
-      dc_name: 'Vikas Parmar',
-      c_num: '+91 7383441771',
-      dc_num: '+91 7405546301',
+      c_name: 'Shein Soparivala',
+      dc_name: 'Brij Shingala',
+      c_num: '+91 7802099555',
+      dc_num: '+91 9106304587',
       webmail_id: 'cmc@daiict.ac.in'
     }
   }, {
@@ -11721,10 +11705,10 @@ module.exports =
     style: 'danger',
     role: 'The Cultural Committee is responsible for keeping the student community of DA-IICT culturally alive, the college life happening and simultaneously preserving our culture amongst the students. It also promotes various cultural activities like music, drama and dance amongst the student community. The Cultural Committee organises various big events all year round the academic calendar, thus creating an aura of excitement and enjoyment along with providing a platform for students to showcase their talent in front of the college. Some of the main OAT events include the Dance Nite, the Drama Nite, etc. Apart from these, the Cultural Committee also takes upon its onus, the celebrations of various festivals throughout the year including Janmashtami, Eid and, one of the most popular one, Navratri. With this, it makes an attempt to promote the significance of these festivals as well as generate a homely feeling for the students. The Cultural Committee recognises itself as an important aspect of the soul of a student’s life and strives to make the college life a colourful and memorable one.',
     contact: {
-      c_name: 'Aaditya Thakkar',
-      dc_name: 'Sravani Kalangi',
-      c_num: '+91 9537791815',
-      dc_num: '+91 9909659174',
+      c_name: 'Riya Shah',
+      dc_name: 'Vatsalya Buddha',
+      c_num: '+91 9427938080',
+      dc_num: '+91 9825527889',
       webmail_id: 'cultural@daiict.ac.in',
       facebook: 'https://www.facebook.com/DaiictCulturalCommittee/'
     },
@@ -11782,10 +11766,10 @@ module.exports =
     style: 'warning',
     role: 'Hostel Management Committee works for peaceful, clean and student friendly environment in the hostel of DA-IICT. The purpose of the HMC is to develop a healthier environment in the hostel lives of all the students and induce the interaction between the students of the Hostel by various activity and events. The Committee should carry out all the jobs of hostel management when required, under the supervision of wardens and hostel supervisor, thus increasing the efficiency of the hostel management. It also works as intermediate body between students and Administration, so we provide you platform to raise your request, concern, problems and complain so we can solve it or put it up to the concerned authorities. The most important duty of the HMC members is to identify the problems faced by their respective floor residents, and present them for follow-up to the Committee.  We also ensure the efficient use of the hostel resources by all hostel residents. Apart from these, we carry out several survey to solve the problems related to electrician, carpenter and plumber. We also maintain the TV Room and issue chess and carom to kill the leisure time of the students. We, at HMC , hope to create environment with peace and cleanliness in Hostel. Thus enhancing the quality life of the residents of the hostel by support of student community and Administration.',
     contact: {
-      c_name: 'Harmish Ganatra',
-      dc_name: 'Agam Shah',
-      c_num: '+91 9428890707',
-      dc_num: '+91 8866225667',
+      c_name: 'Animesh Rastogi',
+      dc_name: 'Shrey Patel',
+      c_num: '+91 8922980657',
+      dc_num: '+91 8758005568',
       webmail_id: 'hmc@daiict.ac.in'
     },
     reports: [{
@@ -11810,10 +11794,10 @@ module.exports =
     style: 'danger',
     role: 'The primary role of the ICT Committee is to represent student views and issues related to ICT resources to the concerned authorities (Help Desk, System Admin, Web Committee and ICT Convener) and vice versa. Also, to conduct and/or coordinate sessions over various tools and technologies (eg. Moo- dle) which are used in daily life by the DAIICT community. Further, they play an active role in all the technical assistance required for all the events on campus including sound setup and pack up, maintenance of the technical inventory.',
     contact: {
-      c_name: 'Jay Bhuva',
-      dc_name: 'Megh Shah',
-      c_num: '+91 9033063062',
-      dc_num: '+91 9409265756',
+      c_name: 'Srikumar Sastry',
+      dc_name: 'TBD',
+      c_num: '+91 9925268098',
+      dc_num: '+91 ~',
       webmail_id: 'ict_sbg@daiict.ac.in'
     }
   }, {
@@ -11821,10 +11805,10 @@ module.exports =
     style: 'info',
     role: 'The Sports Committee of DA-IICT aims to showcase athletic intelligence and foster a positive and friendly environment among student community. Also, we are proud organizers of the annual inter-college sports festival of DA-IICT, “CONCOURS”. Concours is a celebration of sportsmanship and teamwork. One of the most prominent college festivals of Gujarat, it is a spectacle of out sporting culture and talent. We also organize sporting events like Athletic Meet, IBT (Inter Batch Tournaments), DCL (Da-iict Cricket League) and Outstation Trip to nurture the sporting spirit of the students. These are the times, when student community comes forward to show its passion and enthusiasm for sports. We, at Sports Committee, hope to create positive environment towards sports at DA-IICT with the hard work and dedication of faculties and student community.',
     contact: {
-      c_name: 'Samarth Parikh',
-      dc_name: 'Piyush Ajmeria',
-      c_num: '+91 9428109090',
-      dc_num: '+91 8109715078',
+      c_name: 'TBD',
+      dc_name: 'TBD',
+      c_num: '+91 ~',
+      dc_num: '+91 ~',
       webmail_id: 'sports@daiict.ac.in',
       website: 'http://concours.daiict.ac.in'
     }
@@ -11833,10 +11817,10 @@ module.exports =
     style: 'success',
     role: 'The Placement Cell at DA-IICT is a concept in its own form. It works professionally abiding the hierarchy of the placement officer followed by the placement secretary, the faculty members and finally the student representatives from each stream. The hierarchy aims at touching all the aspects required for the smooth functioning of placement body of the reputed ICT forerunner Institution DA-IICT. The Placement Cell in DA-IICT works professionally with the Industry to explore opportunities for DA-IICT graduates for placement. The Cell makes its best efforts to reach out to all sub-sectors of the industry in order to ensure that DA-IICT graduates spread across the industry. The role of the Student Placement Cell, DA-IICT is to act just as an interface between the student community and the recruiters in order to organize and smoothen on-campus placements. An important function of SPC is to formulate the placement policy along with Placement Cell. It also works to compile requisite data –Student-related and company-related information. The main burden on the Student Placement Cell, DA-IICT is to ensure the best placements for the student community in both ways, qualitatively and quantitatively.',
     contact: {
-      c_name: 'Akshay Miterani',
-      dc_name: 'Sai Teja',
-      c_num: '+91 8849377746',
-      dc_num: '+91 7600637566',
+      c_name: 'Vivek Gover',
+      dc_name: 'Sumanth Tangirala',
+      c_num: '+91 7874788021',
+      dc_num: '+91 7486914460',
       webmail_id: 'spc@daiict.ac.in',
       website: 'http://placement.daiict.ac.in'
     }
@@ -12187,8 +12171,8 @@ module.exports =
     style: 'success',
     role: 'As the journalism cell of DAIICT, The Press Club strives to give voice to the student community and aspires to be a podium to lodge campus musings in all its moods. To achieve its maxim, The Press Club engages in a number of  journalistic undertakings in the campus. Its principal product is Entelechy, DAIICT’s only campus magazine. Entelechy, the student-run magazine of DA, has over the years and over its editions, morphed into a voice, a power, a passion and an endeavor in the verve of those it envelops, and that is what makes Entelechy more than a magazine. Entelechy is, to us, a concept of volition; it is the autonomy of thought and an enticement to ingenuity. We, at the Press Club, aspire to make a difference in the littlest way we can; if not in the big, wide world yet, in the world around you and me.',
     contact: {
-      c_name: 'Kevin Vegda',
-      c_num: '+91 7405587871',
+      c_name: 'Kritika Gupta',
+      c_num: '+91 9265092036',
       webmail_id: 'pressclub@daiict.ac.in',
       website: 'http://entelechy.daiict.ac.in'
     },
@@ -12202,8 +12186,8 @@ module.exports =
     style: 'info',
     role: 'We are a group of people who like to talk, who believe in the power of words to bring about change, who promote dissent and discussion. We do this by conducting weekly sessions of Parliamentary Debating and Group Discussions on all kinds of topics ranging from politics to movies to morality and ethics. We also have Open Forum Discussions, a platform for the faculty and students to interact on topics affecting both as well as MUNs (Model United Nations). The Debate Club strives to inculcate a culture of dissension while everyone has a good time.',
     contact: {
-      c_name: 'Aarushi Sanghani',
-      c_num: '+91 9099080251',
+      c_name: 'Sai Ram Venkat',
+      c_num: '+91 9099641993',
       webmail_id: 'debate_club@daiict.ac.in'
     }
   }, {
@@ -12211,8 +12195,8 @@ module.exports =
     style: 'default',
     role: 'Dance Club or DADC as it is popularly known, tries to cater to all kind of dancing instincts of students. We are not professional dancers, just amateurs trying to shake a leg here and there. We have grown over the years with our regional and national level wins. We also organize workshops from time to time to engage students and make them feel the exhilarating effects of dancing. We at Dance Club, choreograph, dance, practice hard and put our best foot forward.',
     contact: {
-      c_name: 'Geolangsat Narzary',
-      c_num: '+91 8638278998',
+      c_name: 'Rohit Bangaram',
+      c_num: '+91 7702406403',
       webmail_id: 'danceclub@daiict.ac.in'
     },
     reports: [{
@@ -12225,8 +12209,8 @@ module.exports =
     style: 'danger',
     role: 'The Music Club of DA-IICT aims to develop an interest in students towards music and create a healthy music atmosphere amongst the student community. To achieve this purpose, we organise various \'Acoustic Nite Lives\' for the students to perform with their friends or other music enthusiasts. We also form teams to compete in various music competitions in the annual cultural festivals of various prestigious institutes throughout the year. One of the major events which we perform in is the Ragnarock. Apart from this, we strive to organise various informal jamming sessions where a group of students just gets together and sings its heart out. The sole vision of the Music Club is to keep the music taste, talent and atmosphere alive in the music enthusiasts of DA\'s student community and to provide platforms to nurture this talent',
     contact: {
-      c_name: 'Rudra Chandak',
-      c_num: '+91 9173244011',
+      c_name: 'Yash Mehta',
+      c_num: '+91 8306553698',
       webmail_id: 'music_club@daiict.ac.in',
       facebook: 'https://www.facebook.com/musicclubdaiict/',
       youtube: 'http://www.youtube.com/channel/UC688bugvcKm8A2tFklL0U-A',
@@ -12254,8 +12238,8 @@ module.exports =
     style: 'warning',
     role: 'DAIICT Theatre Group, aka DTG, is a club that conducts and administers theatrics events of DAIICT. There are no bounds to the form of theatre that we perform, having ventured through stage plays, nukkad natak, mime, mono-acting, mimicries, musical plays, and what not, for which numerous learning and performing workshops are regularly conducted. We don’t only have performers, but also wonderful script writers, directors, composers, etc., but first, we are a group of crazy and dedicated learners. We live our  hearts out on the stage. The club has always been equally enthusiastic to welcome the new faces as it is with present members. In fact the main essence of DTG is being an open club and thus it is a family to us rather than just a club. Life\'s a stage and we all are actors.',
     contact: {
-      c_name: 'Labdhi Shah',
-      c_num: '+91 9429028809',
+      c_name: 'Mahek Rupani',
+      c_num: '+91 9727466333',
       webmail_id: 'theatres@daiict.ac.in'
     },
     reports: [{
@@ -12284,8 +12268,8 @@ module.exports =
     style: 'danger',
     role: 'DA-IICT boasts of being a research-oriented institute and the Research Club aims to work to foster a community within the college for those interested in research. It works to help those interested in research, particularly starting at the Bachelor level; be it to find others working in similar areas or to organize on-campus seminars and other opportunities for students to get to know the kind of research that is prevalent. The Research Club would eventually like to be a small cog that enables the functioning of an active and interdisciplinary research community within DA-IICT.',
     contact: {
-      c_name: 'Vaibhav Patel',
-      c_num: '+91 7874038883',
+      c_name: 'Maitreya Patel',
+      c_num: '+91 8200406212',
       webmail_id: 'research_club@daiict.ac.in',
       google: 'https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!forum/research-club-daiict'
     },
@@ -12315,8 +12299,8 @@ module.exports =
     style: 'info',
     role: 'Chess club focuses on enhancing the skills of the students having interest in chess. We provide them proper guidance about tactics and other aspects of the game ,We  encourage them to develop their skills and provide them platform by conducting various tournaments and making them participate in inter college tournaments. Chess club focuses on enhancing the skills of the interested members having interest in chess.',
     contact: {
-      c_name: 'Akar Sheth',
-      c_num: '+91 9724164467',
+      c_name: 'Bhavya Shah',
+      c_num: '+91 7874828813',
       webmail_id: 'chess_club@daiict.ac.in'
     }
   }, {
@@ -12324,8 +12308,8 @@ module.exports =
     style: 'success',
     role: '"Sambhav means possible. Sambhav, at DA-IICT is a group of students with a motive or interest or urge to bring about some positive change in the society. Sambhav organises various activities throughout the year. Book Sale is one of our prime activities where we sell old unused books at heavily discounted prices to students who wish to purchase them. We organise visits to nearby Orphanage and Deaf and Dumb School. These visits make students aware of the society they live in, making them more attached to various sections of the society as well as generate a sense of responsibility and connectedness. Another major event which we organise is the Blood Donation Camp where we organise a camp in the college premise itself, giving an opportunity the young budding youth of today a chance to serve the society. Sambhav strives to develop a positive and empathetic attitude in students towards the society which they are or will be a part of. Sambhav grows, adopts and adapts dynamically, thus attaining the sense of \'We Make It Sambhav\'."',
     contact: {
-      c_name: 'Rudra Chandak',
-      c_num: '+91 9173244011',
+      c_name: 'Daivik Sakaria',
+      c_num: '+91 7600068626',
       webmail_id: 'sambhav@daiict.ac.in'
     },
     reports: [{
@@ -12342,8 +12326,8 @@ module.exports =
     style: 'success',
     role: 'Programming Club has been working to help people explore their hidden passion for programming. We help students understand some basic concepts and few who stick around enjoy and master the art competitive programming. This includes solving complex problems under some time and space constraints, which is a valued skill in the field of computer science. Our philosophy is to make programming a fun activity where students come up with problems and discuss solutions out of their interest. We regularly organize contests and discussion sessions to encourage participation of the student community. We actively promote students to participate in algorithmically challenging competitions like ACM ICPC, Facebook Hacker-cup, Google Code Jam, Codechef Snackdown, TCS Codevita, Hackerearth Collegiate Cup and various others. Students of our club have represented DA-IICT at various such competitions. Programming club continuously strives to uphold and further raise the bar for the programming capabilities of students at DA-IICT.',
     contact: {
-      c_name: 'Smit Patel',
-      c_num: '+91 9512679129',
+      c_name: 'Dhruvil Sutariya',
+      c_num: '+91 8460896368',
       webmail_id: 'programming-club@daiict.ac.in'
     }
   }, {
@@ -12351,18 +12335,18 @@ module.exports =
     style: 'info',
     role: 'By far the most celebrated club, the Film Club occupies a special place in every student\'s heart. The club was started by a few ardent movie enthusiasts with the aim of providing regular entertainment to DA-IICTians in the form of interesting as well as enlightening cinema. The club screens a movie the night before every regular holiday (Saturdays and Sundays) and Screens Matches(Cricket, Football,etc) at the Open Air Theatre (OAT). The Film Club has a wide range of movies - 250 English, 170 Hindi and 25 Other, and is also continually being increased regularly. Bears ample testimony to the fact that the club can boast not only of quantity, but also of quality. Keeping all interests in mind, the club has something for each student of DAIICT. From \'Shutter Island\' to \'Guide\', from \'3 Idiots\' to \'Devdas\', the movies cater to multiple and varied backgrounds. DA-IICT students are not merely spectators but knowledgeable about cinema.',
     contact: {
-      c_name: 'Vikas Parmar',
-      c_num: '+91 7405546301',
+      c_name: 'Jeet Patel',
+      c_num: '+91 7575853447',
       webmail_id: 'film_club@daiict.ac.in'
     }
   }, {
-    header: 'Google Developers\' Group',
+    header: 'Developers\' Student Club',
     style: 'default',
     role: 'We\'re a chapter of Google Developer Groups, which has numerous chapters all over the globe. DA-IICT is one of the very few colleges in India which has its own chapter. We are a group of technology enthusiasts who aim to inculcate a healthy developer culture in our college community, by acquainting people with the most essential and also the latest Tools and Technologies. Albeit our focus primarily revolves around technologies developed by Google, we do swim into other open source technologies such as Git and Beautiful Soup. We at GDG, welcome people who have passion for technology and want to develop something tangible.',
     contact: {
-      c_name: 'Rishi Shah',
-      c_num: '+91 9824513046',
-      webmail_id: 'gdg@daiict.ac.in',
+      c_name: 'Mohammed Shadab',
+      c_num: '+91 9825667234',
+      webmail_id: 'dsc@daiict.ac.in',
       facebook: 'https://www.facebook.com/gdgdaiict/'
     }
   }, {
@@ -12370,8 +12354,8 @@ module.exports =
     style: 'danger',
     role: 'IEEE student branch of DAIICT focuses on enhancing the learning experience of the student community. IEEE\'s main focus is to foster technological innovation and excellence for the benefit of humanity. We focus on conducting social and technical activities for students and encourage them to take full advantage of IEEE membership like scholarships, competitions, seminar and conference grants. We have 2 Special Interest Groups (SIG): SIG- Moblie Apps and SIG- Embedded. SIG- Moblie Apps conduct weekly workshops on Android application development and SIG- Embedded conducts weekly sessions on embedded hardware like Arduino. We IEEE SB members at DA-IICT regularly conduct workshops such as line follower and manual robotics workshop. Women in Engineering(WIE) is also a part of IEEE. It is dedicated to promoting women engineers and scientists. It is a platform where men and women collectively use their diverse talents to innovate for the benefit of humanity. Industrial applications society is a global society of IEEE, which provides industrial exposure to students. We boast our technical fest called i.Fest which we organize every year. It consists of various challenging and competitive events where students from in and around DA-IICT come to participate. We strive at creating technology for people and people for technology.',
     contact: {
-      c_name: 'Harsh Thakkar',
-      c_num: '+91 8866821682',
+      c_name: 'Abhi Ratnman',
+      c_num: '+91 7405892855',
       webmail_id: 'ieee@daiict.ac.in',
       website: 'http://ieee.daiict.ac.in/ieee2017/'
     }
@@ -12380,8 +12364,8 @@ module.exports =
     style: 'warning',
     role: '"Folk dance is where the culture breaths." Khelaiya club- DAIICT provides a medium and platform to express through the art of folk dance and thus strives to keep the culture of folk dance alive. The khelaiya club organises workshops for the Garba enthusiasts to engage them in the subtle art of Garba during Navratri. The Khelaiya club also participates in various events throughout the year. We at Khelaiya club, desire to bring together people and help them live their dance dream.',
     contact: {
-      c_name: 'Vaidehi Darji',
-      c_num: '+91 9974048310',
+      c_name: 'Simran Nagrani',
+      c_num: '+91 9537833739',
       webmail_id: 'khelaiya_club@daiict.ac.in'
     },
     reports: [{
@@ -12398,8 +12382,8 @@ module.exports =
     style: 'danger',
     role: 'It is a community by and for people interested in solving Rubik’s Cube and its other cubic and non-cubic variants. We promote cubing by speedcubing sessions and organizing various competitions(general and WCA affiliated).',
     contact: {
-      c_name: 'Abhijeet Ghodgaonkar',
-      c_num: '+91 9962648741',
+      c_name: 'Ronak Jain',
+      c_num: '+91 9879593420',
       webmail_id: 'cubing_club@daiict.ac.in',
       facebook: 'https://www.facebook.com/cube221013/',
       youtube: 'https://m.youtube.com/#/channel/UCOf-53BLafYq09Nti81azjw'
@@ -12410,21 +12394,12 @@ module.exports =
       date: '5th September, 2017'
     }]
   }, {
-    header: 'Webkit Club',
-    style: 'info',
-    role: 'The WebKit club is  a student community of  Web development enthusiasts, interested both in creating and maintaining codes as well as building and expanding a stronger community of like minded students. As the name suggests ,we are about  "all things web". The club motivates budding  Web developers by organizing technical sessions and camps to introduce and help them learn new Web Technologies like HTML5, CSS3, JavaScript, ReactJS, VueJS, Firebase and many more. Our premier event, The WebDev Camp, is organized every semester for students interested in learning Web Development by helping them build a production ready application from scratch.',
-    contact: {
-      c_name: 'Ananmika Modi',
-      c_num: '+91 9826187735',
-      webmail_id: '201401045@daiict.ac.in'
-    }
-  }, {
     header: 'Electronics Hobby Club',
     style: 'success',
     role: 'We, the EHC, as a group of enthusiastic electronics\' students aim to maintain and  grow the culture of electronics in the campus of DA-IICT. We believe that for excellence in any field, it is necessary that student has strong roots in terms of knowledge. With this idea, we assume basic electronic sessions for freshers in electronics. These hands on sessions, not only help students to have a thorough understanding of the subject, but also help them developing better understanding of what they are studying in the lectures. For students, who are thrilled by electronics or have amazing innovative ideas for projects, we support them for their adventures, in terms of resources, and guidance. We also have our won teams keep working on interesting projects. Apart from these ventures, we prepare freshers to participate in various university electronics competitions. With all these efforts, we thrive to motivate students, as a whole community to develop a fresh perspective for electronics.',
     contact: {
-      c_name: 'Harshul Vaishnav',
-      c_num: '+91 7600369397',
+      c_name: 'Prahar Modi',
+      c_num: '+91 7043188756',
       webmail_id: 'ehc@daiict.ac.in'
     },
     reports: [{
@@ -12441,8 +12416,8 @@ module.exports =
     style: 'success',
     role: 'Our mission is to “Have every child, experience the inspiration and mysticism embodied in Indian and world heritage”. We organize different events, categorized into two parts: local events and other events. Local events include workshops, training, demonstrations and other techniques to get the student an idea on the cultural part of art forms. We believe every child has the capability of some or the other art form. We not only include events on singing and dancing, but also take into consideration the other art forms such as painting, pottery, poetry etc.',
     contact: {
-      c_name: 'Medha Mehta',
-      c_num: '+91 8460707991',
+      c_name: 'Arnav Saha',
+      c_num: '+91 7990486419',
       webmail_id: 'heritage@daiict.ac.in'
     },
     reports: [{
@@ -12455,8 +12430,8 @@ module.exports =
     style: 'info',
     role: 'Excursions are the activities which every engineering student is most awaited of. These become the most memorable moments of one’s life when we travel with our friends. We, the Excursion club of DA-IICT plan and organise such trips for you and gives you a stack of unforgettable moments you have spent with your pals.',
     contact: {
-      c_name: 'Paramjeet Desai',
-      c_num: '+91 8866526650',
+      c_name: 'Aarush Singh',
+      c_num: '+91 8000930597',
       webmail_id: 'excursion_club@daiict.ac.in'
     }
   }, {
@@ -12464,8 +12439,8 @@ module.exports =
     style: 'default',
     role: 'We are individuals who come together and share common interest putting our ideas into existence in order to contribute to the Microsoft Community. Many people have genuine ideas related to app and web development but there is no proper platform provided to them. We, as MSTC, come here and help them give the right environment to inculcate their ideas and develop for Microsoft. We aim to do this in as exciting and simplified manner as possible. If you want to find answers to your questions, share ideas, solve problems, or whatever may be your goal, MSTC is here to help you get more out of your ideas and technology. If you need help browse our club, or post a question and our community members and volunteers can help you understand the problem with advice or step by-step instructions. We will also come up with various events and competitions which would help you to create a strong foundation for your dream competitions like those of Imagine Cup. So basically, we are here to make you experience the windows development environment and encourage you to develop and contribute towards the same.',
     contact: {
-      c_name: 'Darsh Vajaria',
-      c_num: '+91 7228899400',
+      c_name: 'Milek Agarwal',
+      c_num: '+91 9537464102',
       webmail_id: 'microsoftclub@daiict.ac.in',
       website: 'http://microsoftclubdaiict.azurewebsites.net',
       facebook: 'https://www.facebook.com/mstcatdaiict'
@@ -12484,8 +12459,8 @@ module.exports =
     style: 'danger',
     role: 'PMMC or Photography and moviemaking club as the name suggest we are the photographer and video makers. We, as the members of the club, seek to display our love of photography through capturing our college’s events and festivals. To encourage people we organize Photo and Design Exhibitions, Photography walks, sessions on photography and film making, also tries to provide hands on sessions. PMMC strives to capture the happiest moments of our college life.',
     contact: {
-      c_name: 'Kishan Patel',
-      c_num: '+91 9714953058',
+      c_name: 'Chirag Modi',
+      c_num: '+91 8320360696',
       webmail_id: 'moviemaking.daiict@gmail.com',
       youtube: 'https://www.youtube.com/user/MovieMakinClubDAIICT',
       facebook: 'https://www.facebook.com/PMMCDaiict'
@@ -12495,8 +12470,8 @@ module.exports =
     style: 'default',
     role: 'Headrush is the quizzing club of DA-IICT. We are a group of quizzing enthusiasts that aim to not only maintain but perpetually ascertain the growth of the level of comepetitive quizzing in the college while providing a platform for leisurely quizzers to enjoy intense and entertataining weekly quiz sessions ranging across a plethora of topics like ent, music, lit, sci-tech, biz etc.',
     contact: {
-      c_name: 'Aniket Gajjar',
-      c_num: '+91 9099939989',
+      c_name: 'Gaurav Sofat',
+      c_num: '+91 9824003696',
       webmail_id: 'quizzing@daiict.ac.in'
     },
     reports: [{
@@ -12513,8 +12488,8 @@ module.exports =
     style: 'danger',
     role: 'Radio Club is a small group of people, who collectively try to emulate the real life radio shows, allowing people to speak their minds and have fun meanwhile. We have a few RJs, who talk about different topics and current events going on in the college. We also control the cafeteria music system, and stream live music 24*7 on our IP so people can stream it.',
     contact: {
-      c_name: 'Kunal Gohel',
-      c_num: '+91 9714827200',
+      c_name: 'Ketul Solanki',
+      c_num: '+91 9726296392',
       webmail_id: 'radio@daiict.ac.in'
     }
   }];
@@ -16024,6 +15999,31 @@ module.exports =
 /***/ (function(module, exports) {
 
   module.exports = require("./assets");
+
+/***/ }),
+/* 187 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ak_pp.jpg?7de98a8fbef8c3d6eb06125392babd1e";
+
+/***/ }),
+/* 188 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ym_pp.jpg?26ace52661cb63bd13fe21a2c4f78f42";
+
+/***/ }),
+/* 189 */,
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/vs_pp.jpg?2f817622a8f57b18a49aaca7ed3dc7bd";
+
+/***/ }),
+/* 191 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "routes/dashboardPages/sbgTeam/ys_pp.jpg?1ffc2194e276b540b3192244f5e28fff";
 
 /***/ })
 /******/ ]);

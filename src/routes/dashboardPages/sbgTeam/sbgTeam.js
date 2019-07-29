@@ -2,10 +2,10 @@ import React, { PropTypes } from 'react';
 import { Carousel, PageHeader } from 'react-bootstrap';
 
 const title = 'SBG Core Team';
-const smPp = require('./sm_pp.jpeg');
-const jnPp = require('./jn.jpeg');
-const nlPp = require('./nl_pp.jpg');
-const bmPp = require('./bm_pp.jpg');
+const ysPp = require('./ys_pp.jpg');
+const vsPp = require('./vs_pp.jpg');
+const akPp = require('./ak_pp.jpg');
+const ymPp = require('./ym_pp.jpg');
 
 class displayBlank extends React.Component {
   constructor(props, context) {
@@ -34,31 +34,31 @@ class displayBlank extends React.Component {
         <br /><br />
         <Carousel className="carousel-int" activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect}>
           <Carousel.Item>
-            <img width={600} height={200} alt="500x300" src={smPp} />
+            <img width={600} height={200} alt="500x300" src={ysPp} />
             <Carousel.Caption>
               <h3>Convener</h3>
-              <p>Samarth Parikh, B.Tech 4th year (+91 94281 09090).</p>
+              <p>Yash Shah, B.Tech 4th year (+91 99250 69749).</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img width={600} height={200} alt="500x300" src={jnPp} />
+            <img width={600} height={200} alt="500x300" src={vsPp} />
             <Carousel.Caption>
               <h3>Deputy Convener</h3>
-              <p>Jinesh Shah, B.Tech 4th year (+91 89807 79867).</p>
+              <p>Vandan Soni, B.Tech 4th year (+91 74052 72305).</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img width={600} height={200} alt="500x300" src={nlPp} />
+            <img width={600} height={200} alt="500x300" src={akPp} />
             <Carousel.Caption>
               <h3>Treasurer</h3>
-              <p>Nilay Shrimali, B.Tech 4th year (+91 70462 95423).</p>
+              <p>Abhishek Kalavadiya, B.Tech 4th year (+91 87583 08779).</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img width={600} height={200} alt="500x300" src={bmPp} />
+            <img width={600} height={200} alt="500x300" src={ymPp} />
             <Carousel.Caption>
               <h3>Secretary</h3>
-              <p>Bhargav Makwana, B.Tech 3rd year (+91 91737 70828).</p>
+              <p>Yash Mehta, B.Tech 4th year (+91 83065 53698).</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

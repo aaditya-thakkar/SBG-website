@@ -117,10 +117,10 @@ const otherBodies = {
       <li>Strict measures are taken to ensure ragging-free campus</li>
       <li>ZERO TOLERANCE policy for ragging at DA-IICT</li>
       <li>We assign an Anti-Ragging committee member from senior year on each floor of every wing in HoR to take care of juniors and take appropriate steps if some unwanted activity is going on.</li>
-      <li>There are a total of 10 wings and 30 floors in the HoR, hence there are <strong>30 Anti-Ragging Members assigned by the SBG Core.</strong></li>
+      <li>There are a total of 10 wings and 30 floors in the HoR, hence there are <strong>17 Anti-Ragging Members assigned by the SBG Core.</strong></li>
     </ul>
       <br />
-      <center><Button href={'https://docs.google.com/spreadsheets/d/1SZ9OkaZUQciEyMlevUHL8qAXlf30Qw8cuyk9WWZS00k/edit?usp=sharing'} target={'_blank'}><b>Anti-Ragging Committee 2017-18</b></Button></center>
+      <center><Button href={'https://docs.google.com/spreadsheets/d/1ts3rF0QMKr1ro8Z7VJOuJz7ebeuATQoxFPzqCTlgFds/edit?usp=sharing'} target={'_blank'}><b>Anti-Ragging Committee 2019-20</b></Button></center>
     </div>,
   },
   SM: {
@@ -193,12 +193,12 @@ const otherBodies = {
       <h4>Gender Cell Student Representatives</h4>
       <ol>
         <li>
-          <p><b>Kritika Somani</b></p>
-          <p>Contact: +91 8141246869</p>
+          <p><b>Jhanvi Chauhan</b></p>
+          <p>Contact: +91 81603 81186</p>
         </li>
         <li>
-          <p><b>Akshay Miterani</b></p>
-          <p>Contact: +91 9586594944</p>
+          <p><b>Arnab Gupta</b></p>
+          <p>Contact: +91 83693 75096</p>
         </li>
       </ol>
       <br />
@@ -407,9 +407,9 @@ class Home extends React.Component {
               <br />
               <h5>Election Commissioners</h5>
               <ol>
-                <li>Piyushi Pawan</li>
-                <li>Aashini Soni</li>
                 <li>Gaurav Sofat</li>
+                <li>Neha Jain</li>
+                <li>Rohin Nanavati</li>
               </ol>
               <a style={{ float: 'right' }} target={'_blank'} href="https://docs.google.com/document/d/1sHfnu0Tpv6xn-VXDvZIyjVl1UYrmP_8JGJG-42AKP5E/edit?usp=sharing">Constitution (First Draft)</a>
             </Panel>
