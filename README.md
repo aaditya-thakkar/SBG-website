@@ -1,40 +1,37 @@
-## SBG DA-IICT Website: Contribution Guide
-
-
-#### [Website](http://sbg.daiict.ac.in)
-
-The website is created using ReactJS framework.
+## SBG DA-IICT Website
 
 ## Installation
-#### 1. Clone this project or Download that ZIP file
 
-```sh
-$ git clone https://github.com/aaditya-thakkar/SBG-website.git
+> Make sure you have NodeJS and yarn installed.
+
+#### 1. Clone the project:
+
+```bash
+git clone https://github.com/shadxx7/sbg-daiict-website.git
 ```
 
-#### 2.  Make sure you have [npm](https://www.npmjs.org/) installed globally
+#### 2. To run the project locally, run the following commands on the command prompt
 
-More details here
-https://nodejs.org/en/download/
-
-#### 3. To run the project locally, run the following commands on the command prompt
-
-```sh
-$ cd `project-root-directory`
-```
-```sh
-$ npm install
-```
-```sh
-$ npm start
+```bash
+cd <path_to_the_cloned_project>
 ```
 
-#### 4. Before submitting Pull Requests for changes, make sure to build the project by running
-```sh
-$ npm run build
+```bash
+yarn
 ```
 
-#### 5. To clean up old build products
-```sh
-$ npm run clean
+```bash
+yarn dev
+```
+
+#### 3. To make a production build:
+
+```bash
+yarn build
+```
+
+- and to start that build:
+
+```bash
+yarn start
 ```
